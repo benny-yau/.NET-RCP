@@ -1,0 +1,717 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FileExplorer.Description.FilePath" xml:space="preserve">
+    <value>最後に閲覧したファイルのパスです。</value>
+  </data>
+  <data name="FileExplorer.Description.SortColumn" xml:space="preserve">
+    <value>ソートの基準のカラムです。</value>
+  </data>
+  <data name="FileExplorer.Description.SortOrder" xml:space="preserve">
+    <value>現在のカラムのソート順序です。</value>
+  </data>
+  <data name="FileExplorer.Header.Files" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="FileExplorer.Header.Modified" xml:space="preserve">
+    <value>更新日時</value>
+  </data>
+  <data name="FileExplorer.Header.Size" xml:space="preserve">
+    <value>サイズ</value>
+  </data>
+  <data name="FileExplorer.Header.Type" xml:space="preserve">
+    <value>種類</value>
+  </data>
+  <data name="FileExplorer.Info.BrowseDescription" xml:space="preserve">
+    <value>ファイル一覧を表示するフォルダーを開いて下さい。</value>
+  </data>
+  <data name="FileExplorer.Info.ConfirmDelete" xml:space="preserve">
+    <value>選択した項目を削除してもよろしいですか？</value>
+  </data>
+  <data name="FileExplorer.Info.Description" xml:space="preserve">
+    <value>FlashDevelop にファイルエクスプローラーパネルを追加します。</value>
+  </data>
+  <data name="FileExplorer.Info.Kilobytes" xml:space="preserve">
+    <value>KB</value>
+    <comment>E</comment>
+  </data>
+  <data name="FileExplorer.Info.NewFileName" xml:space="preserve">
+    <value>NewFile</value>
+    <comment>E</comment>
+  </data>
+  <data name="FileExplorer.Info.NewFolderName" xml:space="preserve">
+    <value>NewFolder</value>
+    <comment>E</comment>
+  </data>
+  <data name="FileExplorer.Label.CommandPromptHere" xml:space="preserve">
+    <value>コマンドプロンプト(&amp;P)...</value>
+  </data>
+  <data name="FileExplorer.Label.Copy" xml:space="preserve">
+    <value>コピー(&amp;C)</value>
+  </data>
+  <data name="FileExplorer.Label.CreateFileHere" xml:space="preserve">
+    <value>新規ファイル(&amp;N)...</value>
+  </data>
+  <data name="FileExplorer.Label.CreateFolderHere" xml:space="preserve">
+    <value>新規フォルダー(&amp;F)...</value>
+  </data>
+  <data name="FileExplorer.Label.Delete" xml:space="preserve">
+    <value>削除(&amp;D)</value>
+  </data>
+  <data name="FileExplorer.Label.Edit" xml:space="preserve">
+    <value>開く(&amp;O)</value>
+  </data>
+  <data name="FileExplorer.Label.ExploreHere" xml:space="preserve">
+    <value>エクスプローラーで開く(&amp;X)...</value>
+  </data>
+  <data name="FileExplorer.Label.Paste" xml:space="preserve">
+    <value>貼り付け(&amp;P)</value>
+  </data>
+  <data name="FileExplorer.Label.RefreshView" xml:space="preserve">
+    <value>再読み込み(&amp;R)</value>
+  </data>
+  <data name="FileExplorer.Label.Rename" xml:space="preserve">
+    <value>名前の変更(&amp;M)</value>
+  </data>
+  <data name="FileExplorer.Label.Run" xml:space="preserve">
+    <value>実行(&amp;E)</value>
+  </data>
+  <data name="FileExplorer.Label.SynchronizeView" xml:space="preserve">
+    <value>プロジェクトにシンクロ(&amp;S)</value>
+  </data>
+  <data name="FileExplorer.Label.TrustHere" xml:space="preserve">
+    <value>信頼するパスに追加(&amp;T)</value>
+  </data>
+  <data name="FileExplorer.Label.ViewMenuItem" xml:space="preserve">
+    <value>ファイルエクスプローラー(&amp;F)</value>
+  </data>
+  <data name="FileExplorer.Title.PluginPanel" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="FileExplorer.ToolTip.Browse" xml:space="preserve">
+    <value>フォルダーの参照</value>
+  </data>
+  <data name="FileExplorer.ToolTip.Synchronize" xml:space="preserve">
+    <value>プロジェクトマネージャーとシンクロ</value>
+  </data>
+  <data name="FlashDevelop.Category.Display" xml:space="preserve">
+    <value>Display | 表示</value>
+  </data>
+  <data name="FlashDevelop.Category.Features" xml:space="preserve">
+    <value>Features | 機能</value>
+  </data>
+  <data name="FlashDevelop.Category.Indenting" xml:space="preserve">
+    <value>Indenting | インデント</value>
+  </data>
+  <data name="FlashDevelop.Category.State" xml:space="preserve">
+    <value>State | 状態</value>
+  </data>
+  <data name="FlashDevelop.Description.ComboBoxFlatStyle" xml:space="preserve">
+    <value>インターフェースの外観を指定します。</value>
+  </data>
+  <data name="FlashDevelop.Description.DisabledPlugins" xml:space="preserve">
+    <value>無効化されたプラグインの一覧です。</value>
+  </data>
+  <data name="FlashDevelop.Description.LatestDialogPath" xml:space="preserve">
+    <value>最後に使用したパスです。</value>
+  </data>
+  <data name="FlashDevelop.Description.LocaleVersion" xml:space="preserve">
+    <value>現在のロケールです。変更には再起動が必要です。</value>
+  </data>
+  <data name="FlashDevelop.Description.RenderMode" xml:space="preserve">
+    <value>Common UI のレンダリング方法を指定します。設定の反映には再起動が必要です。</value>
+  </data>
+  <data name="FlashDevelop.Description.RestoreFileSession" xml:space="preserve">
+    <value>起動時に前回終了時に開いていたファイルを復元します。</value>
+  </data>
+  <data name="FlashDevelop.Description.SequentialTabbing" xml:space="preserve">
+    <value>タブ移動の設定です。</value>
+  </data>
+  <data name="FlashDevelop.Description.ViewToolBar" xml:space="preserve">
+    <value>ツールバーを表示します。</value>
+  </data>
+  <data name="FlashDevelop.Description.WindowPosition" xml:space="preserve">
+    <value>前回の終了時に記録した、プログラムウインドウが標準状態のときの位置です。</value>
+  </data>
+  <data name="FlashDevelop.Description.WindowSize" xml:space="preserve">
+    <value>前回の終了時に記録した、プログラムウインドウが標準状態のときのサイズです。</value>
+  </data>
+  <data name="FlashDevelop.Description.WindowState" xml:space="preserve">
+    <value>前回の終了時に記録した、プログラムウインドウの状態です。</value>
+  </data>
+  <data name="FlashDevelop.Group.Main" xml:space="preserve">
+    <value>メイン</value>
+  </data>
+  <data name="FlashDevelop.Group.Plugins" xml:space="preserve">
+    <value>プラグイン</value>
+  </data>
+  <data name="FlashDevelop.Info.AppDescription" xml:space="preserve">
+    <value>メインアプリケーション、共有プラグインコアです。</value>
+  </data>
+  <data name="FlashDevelop.Info.Disable" xml:space="preserve">
+    <value>無効</value>
+  </data>
+  <data name="FlashDevelop.Info.ErrorOccurred" xml:space="preserve">
+    <value>エラーが発生しました。エラーの詳細:</value>
+  </data>
+  <data name="FlashDevelop.Info.ErrorsInThisSession" xml:space="preserve">
+    <value>セッションエラー:</value>
+  </data>
+  <data name="FlashDevelop.Info.Help" xml:space="preserve">
+    <value>ヘルプ</value>
+  </data>
+  <data name="FlashDevelop.Info.NoItemSelected" xml:space="preserve">
+    <value>(一覧から編集したい項目を選択してください)</value>
+  </data>
+  <data name="FlashDevelop.Info.OnlyErrorManager" xml:space="preserve">
+    <value>エラーマネージャーのみが直接エラーダイアログを表示することを許可します。</value>
+  </data>
+  <data name="FlashDevelop.Info.ProcessAlreadyRunning" xml:space="preserve">
+    <value>プロセスはすでに実行中です。</value>
+  </data>
+  <data name="FlashDevelop.Info.RunningProcess" xml:space="preserve">
+    <value>プロセスを実行中:</value>
+  </data>
+  <data name="FlashDevelop.Info.SettingsTakeEffect" xml:space="preserve">
+    <value>変更された設定はすぐに反映されますが、いくつかの設定はプログラムの再起動が必要です。</value>
+  </data>
+  <data name="FlashDevelop.Info.UntitledFileStart" xml:space="preserve">
+    <value>Untitled</value>
+    <comment>E</comment>
+  </data>
+  <data name="FlashDevelop.Info.Value" xml:space="preserve">
+    <value>値:</value>
+  </data>
+  <data name="FlashDevelop.Label.About" xml:space="preserve">
+    <value>.NET RCP について(&amp;A)...</value>
+  </data>
+  <data name="FlashDevelop.Label.ApplicationFiles" xml:space="preserve">
+    <value>アプリケーションファイルを表示(&amp;A)...</value>
+    <comment>Modified after 4.2.4</comment>
+  </data>
+  <data name="FlashDevelop.Label.Back" xml:space="preserve">
+    <value>戻る</value>
+  </data>
+  <data name="FlashDevelop.Label.Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="FlashDevelop.Label.Close" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(&amp;W)</comment>
+  </data>
+  <data name="FlashDevelop.Label.CloseAll" xml:space="preserve">
+    <value>すべて閉じる(&amp;E)</value>
+  </data>
+  <data name="FlashDevelop.Label.CloseOthers" xml:space="preserve">
+    <value>他を閉じる(&amp;O)</value>
+  </data>
+  <data name="FlashDevelop.Label.CommandPrompt" xml:space="preserve">
+    <value>コマンドプロンプト(&amp;C)</value>
+  </data>
+  <data name="FlashDevelop.Label.Continue" xml:space="preserve">
+    <value>続ける(&amp;C)</value>
+  </data>
+  <data name="FlashDevelop.Label.Exit" xml:space="preserve">
+    <value>終了(&amp;X)</value>
+  </data>
+  <data name="FlashDevelop.Label.FDDocs" xml:space="preserve">
+    <value>オンラインドキュメント(&amp;O)...</value>
+  </data>
+  <data name="FlashDevelop.Label.FDHome" xml:space="preserve">
+    <value>FlashDevelop ホームページ(&amp;F)...</value>
+  </data>
+  <data name="FlashDevelop.Label.File" xml:space="preserve">
+    <value>ファイル(&amp;F)</value>
+  </data>
+  <data name="FlashDevelop.Label.Forward" xml:space="preserve">
+    <value>転送</value>
+  </data>
+  <data name="FlashDevelop.Label.GeneralTools" xml:space="preserve">
+    <value>総合ツール(&amp;G)</value>
+  </data>
+  <data name="FlashDevelop.Label.Go" xml:space="preserve">
+    <value>移動</value>
+  </data>
+  <data name="FlashDevelop.Label.Help" xml:space="preserve">
+    <value>ヘルプ(&amp;H)</value>
+  </data>
+  <data name="FlashDevelop.Label.Ok" xml:space="preserve">
+    <value>OK</value>
+    <comment>E</comment>
+  </data>
+  <data name="FlashDevelop.Label.ProgramSettings" xml:space="preserve">
+    <value>環境設定(&amp;P)...</value>
+  </data>
+  <data name="FlashDevelop.Label.Refresh" xml:space="preserve">
+    <value>再読み込み</value>
+  </data>
+  <data name="FlashDevelop.Label.ReleaseNotes" xml:space="preserve">
+    <value>リリースノート(&amp;R)...</value>
+  </data>
+  <data name="FlashDevelop.Label.Search" xml:space="preserve">
+    <value>検索(&amp;F)</value>
+  </data>
+  <data name="FlashDevelop.Label.Tools" xml:space="preserve">
+    <value>ツール(&amp;T)</value>
+  </data>
+  <data name="FlashDevelop.Label.View" xml:space="preserve">
+    <value>表示(&amp;V)</value>
+  </data>
+  <data name="FlashDevelop.Label.WindowsExplorer" xml:space="preserve">
+    <value>エクスプローラー(&amp;E)</value>
+  </data>
+  <data name="FlashDevelop.Title.AboutDialog" xml:space="preserve">
+    <value>FlashDevelop について</value>
+  </data>
+  <data name="FlashDevelop.Title.ConfirmDialog" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="FlashDevelop.Title.CustomDocument" xml:space="preserve">
+    <value>読み込み中...</value>
+  </data>
+  <data name="FlashDevelop.Title.ErrorDialog" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+  <data name="FlashDevelop.Title.InfoDialog" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="FlashDevelop.Title.SettingDialog" xml:space="preserve">
+    <value>環境設定</value>
+  </data>
+  <data name="FlashDevelop.Title.WarningDialog" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="LayoutManager.Description.CustomLayoutPath" xml:space="preserve">
+    <value>レイアウトファイルの保存先を変更します。</value>
+  </data>
+  <data name="LayoutManager.Info.Description" xml:space="preserve">
+    <value>FlashDevelp にレイアウトマネージャーを追加します。</value>
+  </data>
+  <data name="LayoutManager.Info.NoLayoutsFound" xml:space="preserve">
+    <value>レイアウトが保存されていません。</value>
+  </data>
+  <data name="LayoutManager.Info.OpenFileFilter" xml:space="preserve">
+    <value>FlashDevelop レイアウト (*.fdl)|*.fdl</value>
+  </data>
+  <data name="LayoutManager.Label.DeleteLayout" xml:space="preserve">
+    <value>レイアウトを削除(&amp;D)</value>
+  </data>
+  <data name="LayoutManager.Label.LoadLayout" xml:space="preserve">
+    <value>レイアウトを適用(&amp;L)</value>
+  </data>
+  <data name="LayoutManager.Label.SaveCurrent" xml:space="preserve">
+    <value>現在のレイアウトを保存(&amp;S)...</value>
+  </data>
+  <data name="LayoutManager.Label.ShowSettings" xml:space="preserve">
+    <value>設定(&amp;H)...</value>
+  </data>
+  <data name="LayoutManager.Label.ViewMenuItem" xml:space="preserve">
+    <value>レイアウトマネージャー(&amp;L)</value>
+  </data>
+  <data name="LayoutManager.Title.PluginPanel" xml:space="preserve">
+    <value>レイアウト</value>
+  </data>
+  <data name="OutputPanel.Description.ShowOnOutput" xml:space="preserve">
+    <value>新しい項目が追加された場合、出力パネルを自動的に表示させます。</value>
+  </data>
+  <data name="OutputPanel.Description.ShowOnProcessEnd" xml:space="preserve">
+    <value>キャプチャしているプロセスが完了した場合、出力パネルを自動的に表示させます。</value>
+  </data>
+  <data name="OutputPanel.Description.WrapOutput" xml:space="preserve">
+    <value>テキスト出力を自動改行します。</value>
+  </data>
+  <data name="OutputPanel.Info.Description" xml:space="preserve">
+    <value>FlashDevelop にデバッグメッセージを表示するための出力パネルを表示します。</value>
+  </data>
+  <data name="OutputPanel.Label.ClearOutput" xml:space="preserve">
+    <value>クリア(&amp;D)</value>
+  </data>
+  <data name="OutputPanel.Label.CopyOutput" xml:space="preserve">
+    <value>コピー(&amp;C)</value>
+  </data>
+  <data name="OutputPanel.Label.ViewMenuItem" xml:space="preserve">
+    <value>出力(&amp;O)</value>
+  </data>
+  <data name="OutputPanel.Label.WrapText" xml:space="preserve">
+    <value>自動改行(&amp;W)</value>
+  </data>
+  <data name="OutputPanel.Title.PluginPanel" xml:space="preserve">
+    <value>出力</value>
+  </data>
+  <data name="PluginCore.Docking.ToolTipAutoHide" xml:space="preserve">
+    <value>自動的に隠す</value>
+  </data>
+  <data name="PluginCore.Docking.ToolTipClose" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="PluginCore.Docking.ToolTipOptions" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+  <data name="PluginCore.Docking.ToolTipWindowList" xml:space="preserve">
+    <value>ウインドウリスト</value>
+  </data>
+  <data name="StartPage.Category.Common" xml:space="preserve">
+    <value>Common | 共通</value>
+  </data>
+  <data name="StartPage.Category.Custom" xml:space="preserve">
+    <value>Custom | カスタム</value>
+  </data>
+  <data name="StartPage.Description.CloseOnProjectOpen" xml:space="preserve">
+    <value>プロジェクトが開かれたとき、スタートページを自動的に閉じます。</value>
+  </data>
+  <data name="StartPage.Description.CustomRssFeed" xml:space="preserve">
+    <value>任意の RSS フィードの URL です。使用する場合は Use Custom RSS Feed が True になっていることを確認してください。</value>
+  </data>
+  <data name="StartPage.Description.CustomStartPage" xml:space="preserve">
+    <value>任意のスタートページへの URL です。使用する場合はUse Custom Start Page が True になっていることを確認してください。</value>
+  </data>
+  <data name="StartPage.Description.ShowStartPageInsteadOfUntitled" xml:space="preserve">
+    <value>表示するドキュメントがなくなったとき、無題のドキュメントの代わりにスタートページを表示します。</value>
+  </data>
+  <data name="StartPage.Description.ShowStartPageOnStartup" xml:space="preserve">
+    <value>FlashDevelop を起動時のスタートページの表示:
+Always - セッションを復元しないで、代わりにスタートページを表示します。
+NotRestoringSession - 復元するセッションがないときにスタートページを表示します。
+Never - 起動時にスタートページを表示しません。</value>
+  </data>
+  <data name="StartPage.Description.UseCustomRssFeed" xml:space="preserve">
+    <value>デフォルトのスタートページのフィードのかわりに、任意の RSS フィードを使用します。</value>
+  </data>
+  <data name="StartPage.Description.UseCustomStartPage" xml:space="preserve">
+    <value>デフォルトのスタートページのかわりに、任意のスタートページを使用します。</value>
+  </data>
+  <data name="StartPage.Label.ViewMenuItem" xml:space="preserve">
+    <value>スタートページ(&amp;S)</value>
+  </data>
+  <data name="StartPage.Title.StartPage" xml:space="preserve">
+    <value>スタートページ</value>
+  </data>
+  <data name="FileExplorer.Info.PathTrusted" xml:space="preserve">
+    <value>Flash Player の信頼するパスに追加しました。</value>
+  </data>
+  <data name="StartPage.Info.Description" xml:space="preserve">
+    <value>FlashDevelop にスタートページを追加します。</value>
+  </data>
+  <data name="FlashDevelop.Title.OpenFileDialog" xml:space="preserve">
+    <value>ファイルを開く</value>
+  </data>
+  <data name="FlashDevelop.Label.CustomArguments" xml:space="preserve">
+    <value>カスタムアーギュメントの編集(&amp;U)...</value>
+  </data>
+  <data name="FlashDevelop.Group.Arguments" xml:space="preserve">
+    <value>アーギュメント</value>
+  </data>
+  <data name="FlashDevelop.Info.Argument" xml:space="preserve">
+    <value>アーギュメント:</value>
+  </data>
+  <data name="FlashDevelop.Info.Details" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="FlashDevelop.Info.Key" xml:space="preserve">
+    <value>キー:</value>
+  </data>
+  <data name="FlashDevelop.Info.Undefined" xml:space="preserve">
+    <value>undefined</value>
+    <comment>E</comment>
+  </data>
+  <data name="FlashDevelop.Label.Add" xml:space="preserve">
+    <value>新規(&amp;N)</value>
+  </data>
+  <data name="FlashDevelop.Label.Delete" xml:space="preserve">
+    <value>削除(&amp;D)</value>
+  </data>
+  <data name="FlashDevelop.Title.ArgumentDialog" xml:space="preserve">
+    <value>カスタムアーギュメントの編集</value>
+  </data>
+  <data name="FlashDevelop.Info.ArgumentsTakeEffect" xml:space="preserve">
+    <value>変更された設定はすぐに反映されます。</value>
+  </data>
+  <data name="FlashDevelop.Description.DefaultFont" xml:space="preserve">
+    <value>デフォルトで使用するUIフォントです。初期値は Tahoma, 8.25pt です。</value>
+  </data>
+  <data name="FlashDevelop.Description.ConsoleFont" xml:space="preserve">
+    <value>コンソールと出力コントロールに使用されるフォントです。初期値は Courier New, 8.75pt です。</value>
+  </data>
+  <data name="FlashDevelop.Description.ViewStatusBar" xml:space="preserve">
+    <value>ステータスバーを表示します。</value>
+  </data>
+  <data name="FlashDevelop.Info.ArgumentFilter" xml:space="preserve">
+    <value>FlashDevelop アーギュメント (*.fda)</value>
+  </data>
+  <data name="FlashDevelop.Label.ExportArguments" xml:space="preserve">
+    <value>アーギュメントのエクスポート(&amp;E)...</value>
+  </data>
+  <data name="FlashDevelop.Label.ImportArguments" xml:space="preserve">
+    <value>アーギュメントをインポート(&amp;I)...</value>
+  </data>
+  <data name="FlashDevelop.Label.FullScreen" xml:space="preserve">
+    <value>フルスクリーン(&amp;U)</value>
+  </data>
+  <data name="FlashDevelop.Group.Other" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="FileExplorer.Label.ShellMenu" xml:space="preserve">
+    <value>コンテキストメニュー...</value>
+  </data>
+  <data name="FileExplorer.Description.SynchronizeToProject" xml:space="preserve">
+    <value>開いているプロジェクトとファイル表示をシンクロさせます。</value>
+  </data>
+  <data name="FlashDevelop.Title.ArgReplaceDialog" xml:space="preserve">
+    <value>ダイナミックアーギュメントの置換</value>
+  </data>
+  <data name="FlashDevelop.Info.CouldNotBeRecycled" xml:space="preserve">
+    <value>ごみ箱に移動することができません:</value>
+  </data>
+  <data name="FlashDevelop.Info.CouldNotExecuteScript" xml:space="preserve">
+    <value>スクリプトが正しく実行できませんでした:</value>
+  </data>
+  <data name="MacroManager.Description.UserMacros" xml:space="preserve">
+    <value>現在有効なマクロのリストです。</value>
+  </data>
+  <data name="MacroManager.Group.Macros" xml:space="preserve">
+    <value>マクロ</value>
+  </data>
+  <data name="MacroManager.Info.CouldNotRunMacro" xml:space="preserve">
+    <value>マクロを実行できませんでした。問題を修正してください。</value>
+  </data>
+  <data name="MacroManager.Info.Description" xml:space="preserve">
+    <value>FlashDevelop にマクロ機能を追加します。</value>
+  </data>
+  <data name="MacroManager.Info.MacroFilter" xml:space="preserve">
+    <value>FlashDevelop マクロ (*.fdm)</value>
+  </data>
+  <data name="MacroManager.Info.MacrosTakeEffect" xml:space="preserve">
+    <value>マクロは編集後すぐに反映されます。</value>
+  </data>
+  <data name="MacroManager.Info.Untitled" xml:space="preserve">
+    <value>無題</value>
+  </data>
+  <data name="MacroManager.Label.Add" xml:space="preserve">
+    <value>新規(&amp;N)</value>
+  </data>
+  <data name="MacroManager.Label.Close" xml:space="preserve">
+    <value>閉じる(&amp;C)</value>
+  </data>
+  <data name="MacroManager.Label.Delete" xml:space="preserve">
+    <value>削除(&amp;D)</value>
+  </data>
+  <data name="MacroManager.Label.EditMacros" xml:space="preserve">
+    <value>マクロの編集(&amp;E)...</value>
+  </data>
+  <data name="MacroManager.Label.ExportMacros" xml:space="preserve">
+    <value>マクロをエクスポート(&amp;E)...</value>
+  </data>
+  <data name="MacroManager.Label.ImportMacros" xml:space="preserve">
+    <value>マクロをインポート(&amp;I)...</value>
+  </data>
+  <data name="MacroManager.Label.Macros" xml:space="preserve">
+    <value>マクロ(&amp;M)</value>
+  </data>
+  <data name="MacroManager.Title.MacroDialog" xml:space="preserve">
+    <value>マクロ</value>
+  </data>
+  <data name="MacroManager.Description.AutoRun" xml:space="preserve">
+    <value>FlashDevelop 起動時に自動的にマクロを実行します。有効な場合、メニューにその項目は表示されません。</value>
+  </data>
+  <data name="MacroManager.Description.Entries" xml:space="preserve">
+    <value>マクロの固有のコマンドを設定します。</value>
+  </data>
+  <data name="MacroManager.Description.Label" xml:space="preserve">
+    <value>このマクロのメニューのラベルです。</value>
+  </data>
+  <data name="MacroManager.Description.Shortcut" xml:space="preserve">
+    <value>このマクロのショートカットです。</value>
+  </data>
+  <data name="MacroManager.Description.Image" xml:space="preserve">
+    <value>このマクロのメニューでのアイコンです。</value>
+  </data>
+  <data name="FlashDevelop.Label.Restart" xml:space="preserve">
+    <value>再起動(&amp;T)</value>
+  </data>
+  <data name="FlashDevelop.Description.UseSystemColors" xml:space="preserve">
+    <value>FlashDevelop のウインドウにシステムカラーを適応します。</value>
+  </data>
+  <data name="OutputPanel.Label.ClearSearchText" xml:space="preserve">
+    <value>検索文字列をクリア</value>
+  </data>
+  <data name="OutputPanel.Label.SearchInvitation" xml:space="preserve">
+    <value>検索...</value>
+  </data>
+  <data name="FlashDevelop.Info.FilterSettings" xml:space="preserve">
+    <value>検索:</value>
+  </data>
+  <data name="FlashDevelop.Info.ShortcutEditInfo" xml:space="preserve">
+    <value>ショートカットキーを登録するには、設定したい項目を選択し、キーを打ち込んでください。</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Label.Command" xml:space="preserve">
+    <value>コマンド</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Label.KeyboardShortcuts" xml:space="preserve">
+    <value>キーボードショートカットの編集(&amp;H)...</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Label.RemoveShortcut" xml:space="preserve">
+    <value>ショートカットを削除(&amp;R)</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Label.Shortcut" xml:space="preserve">
+    <value>ショートカット</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Title.Shortcuts" xml:space="preserve">
+    <value>ショートカット</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Info.UnableToLoadPlugin" xml:space="preserve">
+    <value>プラグインをロードできませんでした:</value>
+    <comment>Modified after 3.3.4</comment>
+  </data>
+  <data name="FlashDevelop.Info.ShortcutIsAlreadyUsed" xml:space="preserve">
+    <value>そのショートカットキーはすでに他のコマンドに割り当てられています。</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Description.ConfirmOnExit" xml:space="preserve">
+    <value>プログラムが終了する際に確認をとります。</value>
+    <comment>Added after 3.3.2</comment>
+  </data>
+  <data name="FlashDevelop.Info.AreYouSureToExit" xml:space="preserve">
+    <value>本当に .NET RCP を終了してもよろしいですか？</value>
+    <comment>Added after 3.3.2</comment>
+  </data>
+  <data name="FlashDevelop.Category.Locale" xml:space="preserve">
+    <value>Locale | ロケール</value>
+    <comment>Added after 3.3.2</comment>
+  </data>
+  <data name="FlashDevelop.Info.ThemesFilter" xml:space="preserve">
+    <value>FlashDevelop テーマファイル (*.fdi, *.fdz)|*.fdi;*.fdz</value>
+    <comment>Added after 4.2.4</comment>
+  </data>
+  <data name="FlashDevelop.Label.SelectTheme" xml:space="preserve">
+    <value>UI テーマを選択</value>
+    <comment>Added after 4.2.4</comment>
+  </data>
+  <data name="FlashDevelop.Label.PropertiesWindow" xml:space="preserve">
+    <value>[プロパティ]ウィンドウ</value>
+  </data>
+  <data name="FlashDevelop.Label.Properties" xml:space="preserve">
+    <value>プロパティ</value>
+  </data>
+</root>

@@ -1,0 +1,710 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FileExplorer.Description.FilePath" xml:space="preserve">
+    <value>近期浏览的文件路径.</value>
+  </data>
+  <data name="FileExplorer.Description.SortColumn" xml:space="preserve">
+    <value>当前列已排序.</value>
+  </data>
+  <data name="FileExplorer.Description.SortOrder" xml:space="preserve">
+    <value>当前列的排序顺序。</value>
+  </data>
+  <data name="FileExplorer.Header.Files" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="FileExplorer.Header.Modified" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="FileExplorer.Header.Size" xml:space="preserve">
+    <value>大小</value>
+  </data>
+  <data name="FileExplorer.Header.Type" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="FileExplorer.Info.BrowseDescription" xml:space="preserve">
+    <value>在文件夹中打开列表文件.</value>
+  </data>
+  <data name="FileExplorer.Info.ConfirmDelete" xml:space="preserve">
+    <value>确定要删除所选的项目吗?</value>
+  </data>
+  <data name="FileExplorer.Info.Description" xml:space="preserve">
+    <value>向 FlashDevelop 添加一个文件资源管理器面板。</value>
+  </data>
+  <data name="FileExplorer.Info.Kilobytes" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="FileExplorer.Info.NewFileName" xml:space="preserve">
+    <value>新建文件</value>
+  </data>
+  <data name="FileExplorer.Info.NewFolderName" xml:space="preserve">
+    <value>新建文件夹</value>
+  </data>
+  <data name="FileExplorer.Label.CommandPromptHere" xml:space="preserve">
+    <value>在此启动命令提示符(&amp;P)...</value>
+  </data>
+  <data name="FileExplorer.Label.Copy" xml:space="preserve">
+    <value>复制(&amp;O)</value>
+  </data>
+  <data name="FileExplorer.Label.CreateFileHere" xml:space="preserve">
+    <value>在这里创建文件(&amp;C)...</value>
+  </data>
+  <data name="FileExplorer.Label.CreateFolderHere" xml:space="preserve">
+    <value>在这里创建文件夹(&amp;F)...</value>
+  </data>
+  <data name="FileExplorer.Label.Delete" xml:space="preserve">
+    <value>删除(&amp;D)</value>
+  </data>
+  <data name="FileExplorer.Label.Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="FileExplorer.Label.ExploreHere" xml:space="preserve">
+    <value>浏览到这里(&amp;X)...</value>
+  </data>
+  <data name="FileExplorer.Label.Paste" xml:space="preserve">
+    <value>粘贴(&amp;P)</value>
+  </data>
+  <data name="FileExplorer.Label.RefreshView" xml:space="preserve">
+    <value>刷新视图(&amp;R)</value>
+  </data>
+  <data name="FileExplorer.Label.Rename" xml:space="preserve">
+    <value>重命名(&amp;N)</value>
+  </data>
+  <data name="FileExplorer.Label.Run" xml:space="preserve">
+    <value>运行(&amp;R)</value>
+  </data>
+  <data name="FileExplorer.Label.SynchronizeView" xml:space="preserve">
+    <value>同步视图(&amp;S)</value>
+  </data>
+  <data name="FileExplorer.Label.TrustHere" xml:space="preserve">
+    <value>添加到信任路径(&amp;T)</value>
+  </data>
+  <data name="FileExplorer.Label.ViewMenuItem" xml:space="preserve">
+    <value>文件浏览器</value>
+  </data>
+  <data name="FileExplorer.Title.PluginPanel" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="FileExplorer.ToolTip.Browse" xml:space="preserve">
+    <value>浏览</value>
+  </data>
+  <data name="FileExplorer.ToolTip.Synchronize" xml:space="preserve">
+    <value>同步</value>
+  </data>
+  <data name="FlashDevelop.Category.Display" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="FlashDevelop.Category.Features" xml:space="preserve">
+    <value>特征</value>
+  </data>
+  <data name="FlashDevelop.Category.Indenting" xml:space="preserve">
+    <value>缩进</value>
+  </data>
+  <data name="FlashDevelop.Category.State" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="FlashDevelop.Description.ComboBoxFlatStyle" xml:space="preserve">
+    <value>使用 FlatStyle 工具条组合框。</value>
+  </data>
+  <data name="FlashDevelop.Description.DisabledPlugins" xml:space="preserve">
+    <value>插件列表已被禁用.</value>
+  </data>
+  <data name="FlashDevelop.Description.LatestDialogPath" xml:space="preserve">
+    <value>程序最后活动路径.</value>
+  </data>
+  <data name="FlashDevelop.Description.LocaleVersion" xml:space="preserve">
+    <value>该程序的当前区域语言设置. 需要重新启动程序以使区域语言设置生效.</value>
+  </data>
+  <data name="FlashDevelop.Description.RenderMode" xml:space="preserve">
+    <value>指定使用公共 UI 渲染模式. 需要重新启动使设置生效.</value>
+  </data>
+  <data name="FlashDevelop.Description.RestoreFileSession" xml:space="preserve">
+    <value>启动时恢复打开的文件.</value>
+  </data>
+  <data name="FlashDevelop.Description.SequentialTabbing" xml:space="preserve">
+    <value>使用连续的Tab制表符.</value>
+  </data>
+  <data name="FlashDevelop.Description.ViewToolBar" xml:space="preserve">
+    <value>显示默认工具栏.</value>
+  </data>
+  <data name="FlashDevelop.Description.WindowPosition" xml:space="preserve">
+    <value>正常窗口状态下最后所知程序位置.</value>
+  </data>
+  <data name="FlashDevelop.Description.WindowSize" xml:space="preserve">
+    <value>最后一次正常状态下的程序窗口大小.</value>
+  </data>
+  <data name="FlashDevelop.Description.WindowState" xml:space="preserve">
+    <value>程序最后所知窗口状态.</value>
+  </data>
+  <data name="FlashDevelop.Group.Main" xml:space="preserve">
+    <value>主程序</value>
+  </data>
+  <data name="FlashDevelop.Group.Plugins" xml:space="preserve">
+    <value>插件</value>
+  </data>
+  <data name="FlashDevelop.Info.AppDescription" xml:space="preserve">
+    <value>主应用程序和共享核心插件.</value>
+  </data>
+  <data name="FlashDevelop.Info.Disable" xml:space="preserve">
+    <value>禁用</value>
+  </data>
+  <data name="FlashDevelop.Info.ErrorOccurred" xml:space="preserve">
+    <value>FlashDevelop 发生错误. 详细错误信息如下:</value>
+  </data>
+  <data name="FlashDevelop.Info.ErrorsInThisSession" xml:space="preserve">
+    <value>本次会话中的错误:</value>
+  </data>
+  <data name="FlashDevelop.Info.Help" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="FlashDevelop.Info.NoItemSelected" xml:space="preserve">
+    <value>(未选择任何项目)</value>
+  </data>
+  <data name="FlashDevelop.Info.OnlyErrorManager" xml:space="preserve">
+    <value>只有 ErrorManager 错误管理器可以直接显示错误对话框.</value>
+  </data>
+  <data name="FlashDevelop.Info.ProcessAlreadyRunning" xml:space="preserve">
+    <value>已经有一个进程在运行.</value>
+  </data>
+  <data name="FlashDevelop.Info.RunningProcess" xml:space="preserve">
+    <value>正在运行的程序：</value>
+  </data>
+  <data name="FlashDevelop.Info.SettingsTakeEffect" xml:space="preserve">
+    <value>一旦您成功编辑它们，但有些可能需要重新启动程序才能使设置生效。 </value>
+  </data>
+  <data name="FlashDevelop.Info.UntitledFileStart" xml:space="preserve">
+    <value>未标题</value>
+  </data>
+  <data name="FlashDevelop.Info.Value" xml:space="preserve">
+    <value>值:</value>
+  </data>
+  <data name="FlashDevelop.Label.About" xml:space="preserve">
+    <value>关于 .NET RCP(&amp;A)...</value>
+  </data>
+  <data name="FlashDevelop.Label.ApplicationFiles" xml:space="preserve">
+    <value>应用程序文件(&amp;A)...</value>
+    <comment>Modified after 4.2.4</comment>
+  </data>
+  <data name="FlashDevelop.Label.Back" xml:space="preserve">
+    <value>后退</value>
+  </data>
+  <data name="FlashDevelop.Label.Cancel" xml:space="preserve">
+    <value>取消(&amp;N)</value>
+  </data>
+  <data name="FlashDevelop.Label.Close" xml:space="preserve">
+    <value>关闭(&amp;C)</value>
+  </data>
+  <data name="FlashDevelop.Label.CloseAll" xml:space="preserve">
+    <value>全部关闭(&amp;E)</value>
+  </data>
+  <data name="FlashDevelop.Label.CloseOthers" xml:space="preserve">
+    <value>关闭其它(&amp;O)</value>
+  </data>
+  <data name="FlashDevelop.Label.CommandPrompt" xml:space="preserve">
+    <value>命令提示符(&amp;C)</value>
+  </data>
+  <data name="FlashDevelop.Label.Continue" xml:space="preserve">
+    <value>继续(&amp;C)</value>
+  </data>
+  <data name="FlashDevelop.Label.Exit" xml:space="preserve">
+    <value>退出(&amp;X)</value>
+  </data>
+  <data name="FlashDevelop.Label.FDDocs" xml:space="preserve">
+    <value>在线文档(&amp;O)...</value>
+  </data>
+  <data name="FlashDevelop.Label.FDHome" xml:space="preserve">
+    <value>FlashDevelop 主页(&amp;F)...</value>
+  </data>
+  <data name="FlashDevelop.Label.File" xml:space="preserve">
+    <value>文件(&amp;F)</value>
+  </data>
+  <data name="FlashDevelop.Label.Forward" xml:space="preserve">
+    <value>前进</value>
+  </data>
+  <data name="FlashDevelop.Label.GeneralTools" xml:space="preserve">
+    <value>常用工具(&amp;G)</value>
+  </data>
+  <data name="FlashDevelop.Label.Go" xml:space="preserve">
+    <value>转到</value>
+  </data>
+  <data name="FlashDevelop.Label.Help" xml:space="preserve">
+    <value>帮助(&amp;H)</value>
+  </data>
+  <data name="FlashDevelop.Label.Ok" xml:space="preserve">
+    <value>确定(&amp;O)</value>
+  </data>
+  <data name="FlashDevelop.Label.ProgramSettings" xml:space="preserve">
+    <value>程序设置(&amp;P)...</value>
+  </data>
+  <data name="FlashDevelop.Label.Refresh" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="FlashDevelop.Label.ReleaseNotes" xml:space="preserve">
+    <value>发行说明(&amp;R)...</value>
+  </data>
+  <data name="FlashDevelop.Label.Search" xml:space="preserve">
+    <value>查找(&amp;S)</value>
+  </data>
+  <data name="FlashDevelop.Label.Tools" xml:space="preserve">
+    <value>工具(&amp;T)</value>
+  </data>
+  <data name="FlashDevelop.Label.View" xml:space="preserve">
+    <value>视图(&amp;V)</value>
+  </data>
+  <data name="FlashDevelop.Label.WindowsExplorer" xml:space="preserve">
+    <value>Windows 资源管理器(&amp;E)</value>
+  </data>
+  <data name="FlashDevelop.Title.AboutDialog" xml:space="preserve">
+    <value>关于 FlashDevelop</value>
+  </data>
+  <data name="FlashDevelop.Title.ConfirmDialog" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="FlashDevelop.Title.CustomDocument" xml:space="preserve">
+    <value>正在加载...</value>
+  </data>
+  <data name="FlashDevelop.Title.ErrorDialog" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="FlashDevelop.Title.InfoDialog" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="FlashDevelop.Title.SettingDialog" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="FlashDevelop.Title.WarningDialog" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="LayoutManager.Description.CustomLayoutPath" xml:space="preserve">
+    <value>指向包含布局自定义的目录路径.</value>
+  </data>
+  <data name="LayoutManager.Info.Description" xml:space="preserve">
+    <value>向 FlashDevelop 添加一个布局管理面板。</value>
+  </data>
+  <data name="LayoutManager.Info.NoLayoutsFound" xml:space="preserve">
+    <value>未找到已保存的布局.</value>
+  </data>
+  <data name="LayoutManager.Info.OpenFileFilter" xml:space="preserve">
+    <value>FlashDevelop 布局 (*.fdl)|*.fdl</value>
+  </data>
+  <data name="LayoutManager.Label.DeleteLayout" xml:space="preserve">
+    <value>删除布局(&amp;D)</value>
+  </data>
+  <data name="LayoutManager.Label.LoadLayout" xml:space="preserve">
+    <value>载入布局(&amp;L)</value>
+  </data>
+  <data name="LayoutManager.Label.SaveCurrent" xml:space="preserve">
+    <value>保存当前(&amp;S)...</value>
+  </data>
+  <data name="LayoutManager.Label.ShowSettings" xml:space="preserve">
+    <value>显示设置(&amp;H)...</value>
+  </data>
+  <data name="LayoutManager.Label.ViewMenuItem" xml:space="preserve">
+    <value>布局管理</value>
+  </data>
+  <data name="LayoutManager.Title.PluginPanel" xml:space="preserve">
+    <value>布局</value>
+  </data>
+  <data name="OutputPanel.Description.ShowOnOutput" xml:space="preserve">
+    <value>始终打开面板显示新的输出.</value>
+  </data>
+  <data name="OutputPanel.Description.ShowOnProcessEnd" xml:space="preserve">
+    <value>输出处理完成后打开面板.</value>
+  </data>
+  <data name="OutputPanel.Description.WrapOutput" xml:space="preserve">
+    <value>换行输出.</value>
+  </data>
+  <data name="OutputPanel.Info.Description" xml:space="preserve">
+    <value>向 FlashDevelop 添加一个调试信息输出面板。</value>
+  </data>
+  <data name="OutputPanel.Label.ClearOutput" xml:space="preserve">
+    <value>清除输出(&amp;C)</value>
+  </data>
+  <data name="OutputPanel.Label.CopyOutput" xml:space="preserve">
+    <value>复制输出(&amp;O)</value>
+  </data>
+  <data name="OutputPanel.Label.ViewMenuItem" xml:space="preserve">
+    <value>输出面板</value>
+  </data>
+  <data name="OutputPanel.Label.WrapText" xml:space="preserve">
+    <value>自动换行</value>
+  </data>
+  <data name="OutputPanel.Title.PluginPanel" xml:space="preserve">
+    <value>输出</value>
+  </data>
+  <data name="PluginCore.Docking.ToolTipAutoHide" xml:space="preserve">
+    <value>自动隐藏</value>
+  </data>
+  <data name="PluginCore.Docking.ToolTipClose" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="PluginCore.Docking.ToolTipOptions" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="PluginCore.Docking.ToolTipWindowList" xml:space="preserve">
+    <value>窗口列表</value>
+  </data>
+  <data name="StartPage.Category.Common" xml:space="preserve">
+    <value>公共</value>
+  </data>
+  <data name="StartPage.Category.Custom" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="StartPage.Description.CloseOnProjectOpen" xml:space="preserve">
+    <value>当打开一个项目时，将关闭首页. 如果只打开一个窗口,只保留显示首页而不是未标题文档。</value>
+  </data>
+  <data name="StartPage.Description.CustomRssFeed" xml:space="preserve">
+    <value>使用自定义的 RSS 源 URL .</value>
+  </data>
+  <data name="StartPage.Description.CustomStartPage" xml:space="preserve">
+    <value>指向自定义首页的路径。</value>
+  </data>
+  <data name="StartPage.Description.ShowStartPageInsteadOfUntitled" xml:space="preserve">
+    <value>所有文档被关闭时显示首页，而不是未标题文档。</value>
+  </data>
+  <data name="StartPage.Description.ShowStartPageOnStartup" xml:space="preserve">
+    <value>当启动 FlashDevelop 时，首页应当显示: 
+总是显示首页 - FlashDevelop 将不还原一个会话, 但始终显示首页. 
+不恢复会话时显示首页 - 如果 FlashDevelop 不恢复会话时，将显示首页. 
+从不显示首页 - 启动 FlashDevelop 时将不显示首页.</value>
+  </data>
+  <data name="StartPage.Description.UseCustomRssFeed" xml:space="preserve">
+    <value>使用自定义的 RSS 源来代替默认首页上的 RSS 源。</value>
+  </data>
+  <data name="StartPage.Description.UseCustomStartPage" xml:space="preserve">
+    <value>使用自定义首页替代默认首页。</value>
+  </data>
+  <data name="StartPage.Label.ViewMenuItem" xml:space="preserve">
+    <value>首页</value>
+  </data>
+  <data name="StartPage.Title.StartPage" xml:space="preserve">
+    <value>首页</value>
+  </data>
+  <data name="FileExplorer.Info.PathTrusted" xml:space="preserve">
+    <value>已经添加到 Flash Player 信任路径.</value>
+  </data>
+  <data name="StartPage.Info.Description" xml:space="preserve">
+    <value>向 FlashDevelop 添加一个开始页。</value>
+  </data>
+  <data name="FlashDevelop.Title.OpenFileDialog" xml:space="preserve">
+    <value>打开文件</value>
+  </data>
+  <data name="FlashDevelop.Label.CustomArguments" xml:space="preserve">
+    <value>自定义参数(&amp;U)...</value>
+  </data>
+  <data name="FlashDevelop.Group.Arguments" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="FlashDevelop.Info.Argument" xml:space="preserve">
+    <value>参数:</value>
+  </data>
+  <data name="FlashDevelop.Info.Details" xml:space="preserve">
+    <value>详细</value>
+  </data>
+  <data name="FlashDevelop.Info.Key" xml:space="preserve">
+    <value>名称:</value>
+  </data>
+  <data name="FlashDevelop.Info.Undefined" xml:space="preserve">
+    <value>未定义</value>
+  </data>
+  <data name="FlashDevelop.Label.Add" xml:space="preserve">
+    <value>添加(&amp;A)</value>
+  </data>
+  <data name="FlashDevelop.Label.Delete" xml:space="preserve">
+    <value>删除(&amp;D)</value>
+  </data>
+  <data name="FlashDevelop.Title.ArgumentDialog" xml:space="preserve">
+    <value>自定义参数</value>
+  </data>
+  <data name="FlashDevelop.Info.ArgumentsTakeEffect" xml:space="preserve">
+    <value>当编辑完成时自定义参数即生效.</value>
+  </data>
+  <data name="FlashDevelop.Description.DefaultFont" xml:space="preserve">
+    <value>定义程序的默认 UI 字体.</value>
+  </data>
+  <data name="FlashDevelop.Description.ConsoleFont" xml:space="preserve">
+    <value>控制台或输出控件使用的字体.</value>
+  </data>
+  <data name="FlashDevelop.Description.ViewStatusBar" xml:space="preserve">
+    <value>显示默认状态栏.</value>
+  </data>
+  <data name="FlashDevelop.Info.ArgumentFilter" xml:space="preserve">
+    <value>FlashDevelop 模板 (*.fda)</value>
+  </data>
+  <data name="FlashDevelop.Label.ExportArguments" xml:space="preserve">
+    <value>导出参数(&amp;E)...</value>
+  </data>
+  <data name="FlashDevelop.Label.ImportArguments" xml:space="preserve">
+    <value>输入参数(&amp;I)...</value>
+  </data>
+  <data name="FlashDevelop.Label.FullScreen" xml:space="preserve">
+    <value>全屏模式(&amp;U)</value>
+  </data>
+  <data name="FlashDevelop.Group.Other" xml:space="preserve">
+    <value>其它</value>
+  </data>
+  <data name="FileExplorer.Label.ShellMenu" xml:space="preserve">
+    <value>右键菜单...</value>
+  </data>
+  <data name="FileExplorer.Description.SynchronizeToProject" xml:space="preserve">
+    <value>与当前项目同步文件视图.</value>
+  </data>
+  <data name="FlashDevelop.Title.ArgReplaceDialog" xml:space="preserve">
+    <value>替换参数</value>
+  </data>
+  <data name="FlashDevelop.Info.CouldNotBeRecycled" xml:space="preserve">
+    <value>无法删除:</value>
+  </data>
+  <data name="FlashDevelop.Info.CouldNotExecuteScript" xml:space="preserve">
+    <value>该脚本未能正确执行:</value>
+  </data>
+  <data name="MacroManager.Description.UserMacros" xml:space="preserve">
+    <value>列出当前可用的宏.</value>
+  </data>
+  <data name="MacroManager.Group.Macros" xml:space="preserve">
+    <value>宏</value>
+  </data>
+  <data name="MacroManager.Info.CouldNotRunMacro" xml:space="preserve">
+    <value>不能运行宏. 请检查语法.</value>
+  </data>
+  <data name="MacroManager.Info.Description" xml:space="preserve">
+    <value>向 FlashDevelop 添加简单的宏功能。</value>
+  </data>
+  <data name="MacroManager.Info.MacroFilter" xml:space="preserve">
+    <value>FlashDevelop 宏 (*.fdm)</value>
+  </data>
+  <data name="MacroManager.Info.MacrosTakeEffect" xml:space="preserve">
+    <value>当编辑完成时宏即生效.</value>
+  </data>
+  <data name="MacroManager.Info.Untitled" xml:space="preserve">
+    <value>未标题</value>
+  </data>
+  <data name="MacroManager.Label.Add" xml:space="preserve">
+    <value>添加(&amp;A)</value>
+  </data>
+  <data name="MacroManager.Label.Close" xml:space="preserve">
+    <value>关闭(&amp;C)</value>
+  </data>
+  <data name="MacroManager.Label.Delete" xml:space="preserve">
+    <value>删除(&amp;D)</value>
+  </data>
+  <data name="MacroManager.Label.EditMacros" xml:space="preserve">
+    <value>编辑宏(&amp;M)...</value>
+  </data>
+  <data name="MacroManager.Label.ExportMacros" xml:space="preserve">
+    <value>导出宏(&amp;E)...</value>
+  </data>
+  <data name="MacroManager.Label.ImportMacros" xml:space="preserve">
+    <value>导入宏(&amp;I)...</value>
+  </data>
+  <data name="MacroManager.Label.Macros" xml:space="preserve">
+    <value>宏(&amp;M)</value>
+  </data>
+  <data name="MacroManager.Title.MacroDialog" xml:space="preserve">
+    <value>宏</value>
+  </data>
+  <data name="MacroManager.Description.AutoRun" xml:space="preserve">
+    <value>FlashDevelop 启动时自动运行宏. 如果已运行, 菜单项将不显示.</value>
+  </data>
+  <data name="MacroManager.Description.Entries" xml:space="preserve">
+    <value>宏的个别指令.</value>
+  </data>
+  <data name="MacroManager.Description.Label" xml:space="preserve">
+    <value>宏菜单标签.</value>
+  </data>
+  <data name="MacroManager.Description.Image" xml:space="preserve">
+    <value>内部图像关键宏菜单项.</value>
+  </data>
+  <data name="FlashDevelop.Label.Restart" xml:space="preserve">
+    <value>重启(&amp;T)</value>
+  </data>
+  <data name="FlashDevelop.Description.UseSystemColors" xml:space="preserve">
+    <value>在控件中强制 FlashDevelop 只使用系统颜色.</value>
+  </data>
+  <data name="OutputPanel.Label.ClearSearchText" xml:space="preserve">
+    <value>清除搜索文本</value>
+  </data>
+  <data name="OutputPanel.Label.SearchInvitation" xml:space="preserve">
+    <value>查找...</value>
+  </data>
+  <data name="FlashDevelop.Info.FilterSettings" xml:space="preserve">
+    <value>过滤设置:</value>
+  </data>
+  <data name="FlashDevelop.Info.ShortcutEditInfo" xml:space="preserve">
+    <value>通过选择一项并按有效的快捷键菜单来编辑快捷键。</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Label.Command" xml:space="preserve">
+    <value>命令</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Label.KeyboardShortcuts" xml:space="preserve">
+    <value>键盘快捷键(&amp;H)...</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Label.RemoveShortcut" xml:space="preserve">
+    <value>删除快捷键(&amp;R)</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Label.Shortcut" xml:space="preserve">
+    <value>快捷键</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Title.Shortcuts" xml:space="preserve">
+    <value>快捷键</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Info.UnableToLoadPlugin" xml:space="preserve">
+    <value>无法加载不兼容或损坏的插件:</value>
+    <comment>Modified after 4.0.3</comment>
+  </data>
+  <data name="MacroManager.Description.Shortcut" xml:space="preserve">
+    <value>宏菜单快捷键.</value>
+  </data>
+  <data name="FlashDevelop.Info.ShortcutIsAlreadyUsed" xml:space="preserve">
+    <value>这个快捷键已关联到另一条命令.</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Description.ConfirmOnExit" xml:space="preserve">
+    <value>确认程序退出时关闭.</value>
+    <comment>Added after 3.3.2</comment>
+  </data>
+  <data name="FlashDevelop.Info.AreYouSureToExit" xml:space="preserve">
+    <value>确定要退出 .NET RCP 吗?</value>
+    <comment>Added after 3.3.2</comment>
+  </data>
+  <data name="FlashDevelop.Category.Locale" xml:space="preserve">
+    <value>本地</value>
+    <comment>Added after 3.3.2</comment>
+  </data>
+  <data name="FlashDevelop.Info.ThemesFilter" xml:space="preserve">
+    <value>FlashDevelop主题文件(*.fdi, *.fdz)|*.fdi;*.fdz</value>
+    <comment>Added after 4.2.4</comment>
+  </data>
+  <data name="FlashDevelop.Label.SelectTheme" xml:space="preserve">
+    <value>选择UI主题...</value>
+    <comment>Added after 4.2.4</comment>
+  </data>
+  <data name="FlashDevelop.Label.PropertiesWindow" xml:space="preserve">
+    <value>属性窗口</value>
+  </data>
+  <data name="FlashDevelop.Label.Properties" xml:space="preserve">
+    <value>属性</value>
+  </data>
+</root>

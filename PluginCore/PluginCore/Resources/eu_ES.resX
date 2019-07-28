@@ -1,0 +1,706 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FileExplorer.Description.FilePath" xml:space="preserve">
+    <value>Azkena bilatutako fitxategi-bidea.</value>
+  </data>
+  <data name="FileExplorer.Description.SortColumn" xml:space="preserve">
+    <value>Ordenatua izan den uneko zutabea.</value>
+  </data>
+  <data name="FileExplorer.Description.SortOrder" xml:space="preserve">
+    <value>Uneko zutabea ordenatzeko modua.</value>
+  </data>
+  <data name="FileExplorer.Header.Files" xml:space="preserve">
+    <value>Fitxategiak</value>
+  </data>
+  <data name="FileExplorer.Header.Modified" xml:space="preserve">
+    <value>Aldatua</value>
+  </data>
+  <data name="FileExplorer.Header.Size" xml:space="preserve">
+    <value>Tamaina</value>
+  </data>
+  <data name="FileExplorer.Header.Type" xml:space="preserve">
+    <value>Mota</value>
+  </data>
+  <data name="FileExplorer.Info.BrowseDescription" xml:space="preserve">
+    <value>Direktorio bat ireki bertako fitxategiak zerrendatzeko.</value>
+  </data>
+  <data name="FileExplorer.Info.ConfirmDelete" xml:space="preserve">
+    <value>Aukeratutako elementuak ezabatu nahi dituzu?</value>
+  </data>
+  <data name="FileExplorer.Info.Description" xml:space="preserve">
+    <value>Fitxategi arakatzaile panela FlashDevelop-era gehitzen du.</value>
+  </data>
+  <data name="FileExplorer.Info.Kilobytes" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="FileExplorer.Info.NewFileName" xml:space="preserve">
+    <value>Fitxategi berria</value>
+  </data>
+  <data name="FileExplorer.Info.NewFolderName" xml:space="preserve">
+    <value>Karpeta berria</value>
+  </data>
+  <data name="FileExplorer.Label.CommandPromptHere" xml:space="preserve">
+    <value>Komando-gonbita hemen...</value>
+  </data>
+  <data name="FileExplorer.Label.Copy" xml:space="preserve">
+    <value>Kopiatu</value>
+  </data>
+  <data name="FileExplorer.Label.CreateFileHere" xml:space="preserve">
+    <value>Fitxategia hemen sortu...</value>
+  </data>
+  <data name="FileExplorer.Label.CreateFolderHere" xml:space="preserve">
+    <value>Karpeta hemen sortu...</value>
+  </data>
+  <data name="FileExplorer.Label.Delete" xml:space="preserve">
+    <value>Ezabatu</value>
+  </data>
+  <data name="FileExplorer.Label.Edit" xml:space="preserve">
+    <value>Editatu</value>
+  </data>
+  <data name="FileExplorer.Label.ExploreHere" xml:space="preserve">
+    <value>Arakatu hemen</value>
+  </data>
+  <data name="FileExplorer.Label.Paste" xml:space="preserve">
+    <value>Itsatsi</value>
+  </data>
+  <data name="FileExplorer.Label.RefreshView" xml:space="preserve">
+    <value>Bista freskatu</value>
+  </data>
+  <data name="FileExplorer.Label.Rename" xml:space="preserve">
+    <value>Izena aldatu</value>
+  </data>
+  <data name="FileExplorer.Label.Run" xml:space="preserve">
+    <value>Exekutatu</value>
+  </data>
+  <data name="FileExplorer.Label.SynchronizeView" xml:space="preserve">
+    <value>Sinkronizatu bista</value>
+  </data>
+  <data name="FileExplorer.Label.TrustHere" xml:space="preserve">
+    <value>Bide fidagarrietara gehitu</value>
+  </data>
+  <data name="FileExplorer.Label.ViewMenuItem" xml:space="preserve">
+    <value>Fitxategi arakatzailea</value>
+  </data>
+  <data name="FileExplorer.Title.PluginPanel" xml:space="preserve">
+    <value>Fitxategiak</value>
+  </data>
+  <data name="FileExplorer.ToolTip.Browse" xml:space="preserve">
+    <value>Arakatu</value>
+  </data>
+  <data name="FileExplorer.ToolTip.Synchronize" xml:space="preserve">
+    <value>Sinkronizatu</value>
+  </data>
+  <data name="FlashDevelop.Category.Display" xml:space="preserve">
+    <value>Bistaratu</value>
+  </data>
+  <data name="FlashDevelop.Category.Features" xml:space="preserve">
+    <value>Ezaugarriak</value>
+  </data>
+  <data name="FlashDevelop.Category.Indenting" xml:space="preserve">
+    <value>Koskatzea</value>
+  </data>
+  <data name="FlashDevelop.Category.State" xml:space="preserve">
+    <value>Egoera</value>
+  </data>
+  <data name="FlashDevelop.Description.ComboBoxFlatStyle" xml:space="preserve">
+    <value>Tresna barrako combo-boxetan estilo zapala erabili da.</value>
+  </data>
+  <data name="FlashDevelop.Description.DisabledPlugins" xml:space="preserve">
+    <value>desgaituak izan diren plugin-en zerrenda.</value>
+  </data>
+  <data name="FlashDevelop.Description.LatestDialogPath" xml:space="preserve">
+    <value>Programan egon den azken bide aktiboa.</value>
+  </data>
+  <data name="FlashDevelop.Description.LocaleVersion" xml:space="preserve">
+    <value>Programaren uneko lokalizazioa. Berrabiaraztea beharrezkoa da.</value>
+  </data>
+  <data name="FlashDevelop.Description.RenderMode" xml:space="preserve">
+    <value>EI-ko elementuak bistaratzeko erabilitako errendatzailea zehazten da. Berrabiaraztea eskatzen du.</value>
+  </data>
+  <data name="FlashDevelop.Description.RestoreFileSession" xml:space="preserve">
+    <value>Abiaraztean irekitako fitxategiak berreskuratzen ditu.</value>
+  </data>
+  <data name="FlashDevelop.Description.SequentialTabbing" xml:space="preserve">
+    <value>Tabulazioaren jokabidea.</value>
+  </data>
+  <data name="FlashDevelop.Description.ViewToolBar" xml:space="preserve">
+    <value>Lehenetsitako tresna-barra bistaratzen da.</value>
+  </data>
+  <data name="FlashDevelop.Description.WindowPosition" xml:space="preserve">
+    <value>Ohiko leihoa-egoeran zegoen programaren azken posizio ezaguna.</value>
+  </data>
+  <data name="FlashDevelop.Description.WindowSize" xml:space="preserve">
+    <value>Ohiko leihoa-egoeran zegoen programaren azken tamaina ezaguna.</value>
+  </data>
+  <data name="FlashDevelop.Description.WindowState" xml:space="preserve">
+    <value>Programaren azken leiho-egoera ezaguna.</value>
+  </data>
+  <data name="FlashDevelop.Group.Main" xml:space="preserve">
+    <value>Nagusia</value>
+  </data>
+  <data name="FlashDevelop.Group.Plugins" xml:space="preserve">
+    <value>Pluginak</value>
+  </data>
+  <data name="FlashDevelop.Info.AppDescription" xml:space="preserve">
+    <value>Aplikazio nagusia eta elkarbanatutako oinarrizko plugina.</value>
+  </data>
+  <data name="FlashDevelop.Info.Disable" xml:space="preserve">
+    <value>desgaitu</value>
+  </data>
+  <data name="FlashDevelop.Info.ErrorOccurred" xml:space="preserve">
+    <value>Errorea gertatu da FlashDevelop-en. Hemen daude errorearen xehetasunak:</value>
+  </data>
+  <data name="FlashDevelop.Info.ErrorsInThisSession" xml:space="preserve">
+    <value>Saio honetako erroreak:</value>
+  </data>
+  <data name="FlashDevelop.Info.Help" xml:space="preserve">
+    <value>Laguntza</value>
+  </data>
+  <data name="FlashDevelop.Info.NoItemSelected" xml:space="preserve">
+    <value>(ez dago hautatutako elementurik)</value>
+  </data>
+  <data name="FlashDevelop.Info.OnlyErrorManager" xml:space="preserve">
+    <value>ErrorManager da errore elkarrizketa zuzenean erakusteko baimena duen bakarra.</value>
+  </data>
+  <data name="FlashDevelop.Info.ProcessAlreadyRunning" xml:space="preserve">
+    <value>Une honetan prozesu bat martxan dago.</value>
+  </data>
+  <data name="FlashDevelop.Info.RunningProcess" xml:space="preserve">
+    <value>Prozesua martxan:</value>
+  </data>
+  <data name="FlashDevelop.Info.SettingsTakeEffect" xml:space="preserve">
+    <value>Aldaketa modu egokian egin orduko izango dute eragina ezarpenek, baina batzuk programa berrabiaraztea eskatuko dute.</value>
+  </data>
+  <data name="FlashDevelop.Info.UntitledFileStart" xml:space="preserve">
+    <value>Izengabea</value>
+  </data>
+  <data name="FlashDevelop.Info.Value" xml:space="preserve">
+    <value>Balioa:</value>
+  </data>
+  <data name="FlashDevelop.Label.About" xml:space="preserve">
+    <value>.NET RCP-i buruz...</value>
+  </data>
+  <data name="FlashDevelop.Label.ApplicationFiles" xml:space="preserve">
+    <value>Aplikazio fitxategiak...</value>
+    <comment>Modified after 4.2.4</comment>
+  </data>
+  <data name="FlashDevelop.Label.Back" xml:space="preserve">
+    <value>Atzera</value>
+  </data>
+  <data name="FlashDevelop.Label.Cancel" xml:space="preserve">
+    <value>Ezeztatu</value>
+  </data>
+  <data name="FlashDevelop.Label.Close" xml:space="preserve">
+    <value>Itxi</value>
+  </data>
+  <data name="FlashDevelop.Label.CloseAll" xml:space="preserve">
+    <value>Denak itxi</value>
+  </data>
+  <data name="FlashDevelop.Label.CloseOthers" xml:space="preserve">
+    <value>Gainontzekoak itxi</value>
+  </data>
+  <data name="FlashDevelop.Label.CommandPrompt" xml:space="preserve">
+    <value>Komando-gonbita</value>
+  </data>
+  <data name="FlashDevelop.Label.Continue" xml:space="preserve">
+    <value>Jarraitu</value>
+  </data>
+  <data name="FlashDevelop.Label.Exit" xml:space="preserve">
+    <value>Irten</value>
+  </data>
+  <data name="FlashDevelop.Label.FDDocs" xml:space="preserve">
+    <value>Online Dokumentazioa...</value>
+  </data>
+  <data name="FlashDevelop.Label.FDHome" xml:space="preserve">
+    <value>FlashDevelop Home...</value>
+  </data>
+  <data name="FlashDevelop.Label.File" xml:space="preserve">
+    <value>Fitxategia</value>
+  </data>
+  <data name="FlashDevelop.Label.Forward" xml:space="preserve">
+    <value>Aurrera</value>
+  </data>
+  <data name="FlashDevelop.Label.GeneralTools" xml:space="preserve">
+    <value>Tresna orokorrak</value>
+  </data>
+  <data name="FlashDevelop.Label.Go" xml:space="preserve">
+    <value>Joan</value>
+  </data>
+  <data name="FlashDevelop.Label.Help" xml:space="preserve">
+    <value>Laguntza</value>
+  </data>
+  <data name="FlashDevelop.Label.Ok" xml:space="preserve">
+    <value>Ados</value>
+  </data>
+  <data name="FlashDevelop.Label.ProgramSettings" xml:space="preserve">
+    <value>Programa ezarpenak...</value>
+  </data>
+  <data name="FlashDevelop.Label.Refresh" xml:space="preserve">
+    <value>Freskatu</value>
+  </data>
+  <data name="FlashDevelop.Label.ReleaseNotes" xml:space="preserve">
+    <value>Argitalpen oharrak...</value>
+  </data>
+  <data name="FlashDevelop.Label.Search" xml:space="preserve">
+    <value>Bilatu</value>
+  </data>
+  <data name="FlashDevelop.Label.Tools" xml:space="preserve">
+    <value>Tresnak</value>
+  </data>
+  <data name="FlashDevelop.Label.View" xml:space="preserve">
+    <value>Bista</value>
+  </data>
+  <data name="FlashDevelop.Label.WindowsExplorer" xml:space="preserve">
+    <value>Windows Arakatzailea</value>
+  </data>
+  <data name="FlashDevelop.Title.AboutDialog" xml:space="preserve">
+    <value>FlashDevelop-i buruz</value>
+  </data>
+  <data name="FlashDevelop.Title.ConfirmDialog" xml:space="preserve">
+    <value>Berretsi</value>
+  </data>
+  <data name="FlashDevelop.Title.CustomDocument" xml:space="preserve">
+    <value>Kargatzen...</value>
+  </data>
+  <data name="FlashDevelop.Title.ErrorDialog" xml:space="preserve">
+    <value>Errorea</value>
+  </data>
+  <data name="FlashDevelop.Title.SettingDialog" xml:space="preserve">
+    <value>Ezarpenak</value>
+  </data>
+  <data name="FlashDevelop.Title.WarningDialog" xml:space="preserve">
+    <value>Abisua</value>
+  </data>
+  <data name="LayoutManager.Description.CustomLayoutPath" xml:space="preserve">
+    <value>Ikuspegiak dituen direktorioa pertsonalizaturako bidea.</value>
+  </data>
+  <data name="LayoutManager.Info.Description" xml:space="preserve">
+    <value>Ikuspegi kudeatzaile panela gehitzen dio FlashDevelop-i.</value>
+  </data>
+  <data name="LayoutManager.Info.NoLayoutsFound" xml:space="preserve">
+    <value>Ez da gordetako ikuspegirik aurkitu</value>
+  </data>
+  <data name="LayoutManager.Info.OpenFileFilter" xml:space="preserve">
+    <value>FlashDevelop-en Ikuspegiak (*.fdl)|*.fdl</value>
+  </data>
+  <data name="LayoutManager.Label.DeleteLayout" xml:space="preserve">
+    <value>Ikuspegia ezabatu</value>
+  </data>
+  <data name="LayoutManager.Label.LoadLayout" xml:space="preserve">
+    <value>Ikuspegia kargatu</value>
+  </data>
+  <data name="LayoutManager.Label.SaveCurrent" xml:space="preserve">
+    <value>Unekoa kargatu...</value>
+  </data>
+  <data name="LayoutManager.Label.ShowSettings" xml:space="preserve">
+    <value>Ezarpenak erakutsi...</value>
+  </data>
+  <data name="LayoutManager.Label.ViewMenuItem" xml:space="preserve">
+    <value>Ikuspegi kudeatzailea</value>
+  </data>
+  <data name="LayoutManager.Title.PluginPanel" xml:space="preserve">
+    <value>Ikuspegiak</value>
+  </data>
+  <data name="OutputPanel.Description.ShowOnOutput" xml:space="preserve">
+    <value>Beti ireki panela irteera berria erakusteko.</value>
+  </data>
+  <data name="OutputPanel.Description.ShowOnProcessEnd" xml:space="preserve">
+    <value>Harrapatutako prozesua bukatu ondoren panela ireki.</value>
+  </data>
+  <data name="OutputPanel.Description.WrapOutput" xml:space="preserve">
+    <value>Irteera testua biltzen da.</value>
+  </data>
+  <data name="OutputPanel.Info.Description" xml:space="preserve">
+    <value>Arazpen mezuentzat irteera panel bat gehitu FlashDevelop-i.</value>
+  </data>
+  <data name="OutputPanel.Label.ClearOutput" xml:space="preserve">
+    <value>Irteera garbitu</value>
+  </data>
+  <data name="OutputPanel.Label.CopyOutput" xml:space="preserve">
+    <value>Irteera kopiatu</value>
+  </data>
+  <data name="OutputPanel.Label.ViewMenuItem" xml:space="preserve">
+    <value>Irteera panela</value>
+  </data>
+  <data name="OutputPanel.Label.WrapText" xml:space="preserve">
+    <value>Testua bildu</value>
+  </data>
+  <data name="OutputPanel.Title.PluginPanel" xml:space="preserve">
+    <value>Irteera</value>
+  </data>
+  <data name="PluginCore.Docking.ToolTipAutoHide" xml:space="preserve">
+    <value>Automatikoki ezkutatu</value>
+  </data>
+  <data name="PluginCore.Docking.ToolTipClose" xml:space="preserve">
+    <value>Itxi</value>
+  </data>
+  <data name="PluginCore.Docking.ToolTipOptions" xml:space="preserve">
+    <value>Aukerak</value>
+  </data>
+  <data name="PluginCore.Docking.ToolTipWindowList" xml:space="preserve">
+    <value>Leiho zerrenda</value>
+  </data>
+  <data name="StartPage.Category.Common" xml:space="preserve">
+    <value>Arrunta</value>
+  </data>
+  <data name="StartPage.Category.Custom" xml:space="preserve">
+    <value>Pertsonalizatua</value>
+  </data>
+  <data name="StartPage.Description.CloseOnProjectOpen" xml:space="preserve">
+    <value>Proiektua irekitzean hasiera orria ixten da. Hasiera Orria Erakutsi Dokumentu Izengabea Ordez true baldin bada, hasiera orria irekia mantenduko da irekitako leiho bakarra bada.</value>
+  </data>
+  <data name="StartPage.Description.CustomRssFeed" xml:space="preserve">
+    <value>RSS jariorako erabiliko den URL pertsonalizatua.</value>
+  </data>
+  <data name="StartPage.Description.CustomStartPage" xml:space="preserve">
+    <value>Erabiliko den hasiera orri pertsonalerako bidea.</value>
+  </data>
+  <data name="StartPage.Description.ShowStartPageInsteadOfUntitled" xml:space="preserve">
+    <value>Dokumentu guztiak itxita daudenean hasiera orria erakutsi dokumentu izengabearen ordez.</value>
+  </data>
+  <data name="StartPage.Description.ShowStartPageOnStartup" xml:space="preserve">
+    <value>FlashDevelop irekitzean hasiera orriak agertu behar luke: 
+Beti - FlashDevelop-ek ez du saioa leheneratuko, baino hasiera orria erakutsiko du. 
+SaioaEzLeheneratu - hasiera orria agertuko da FlashDevelop-ek ez badu saioa leheneratzen. 
+Inoiz - abiatzean ez da hasiera orria erakutsiko.</value>
+  </data>
+  <data name="StartPage.Description.UseCustomRssFeed" xml:space="preserve">
+    <value>RSS jario pertsonalizatua erabiltzen da lehenetsitako hasiera orriko jarioaen ordez.</value>
+  </data>
+  <data name="StartPage.Description.UseCustomStartPage" xml:space="preserve">
+    <value>Hasiera orri pertsonalizatua erabiltzen da lehenetsitako hasiera orriaren ordez.</value>
+  </data>
+  <data name="StartPage.Label.ViewMenuItem" xml:space="preserve">
+    <value>&amp;Hasiera orria</value>
+  </data>
+  <data name="StartPage.Title.StartPage" xml:space="preserve">
+    <value>Hasiera orria</value>
+  </data>
+  <data name="FileExplorer.Info.PathTrusted" xml:space="preserve">
+    <value>Flash Player-aren konfiantzako bidean gehitu da.</value>
+  </data>
+  <data name="StartPage.Info.Description" xml:space="preserve">
+    <value>Hasiera orria gehitzen zaio FlashDevelop-i.</value>
+  </data>
+  <data name="FlashDevelop.Title.OpenFileDialog" xml:space="preserve">
+    <value>Fitxategia ireki</value>
+  </data>
+  <data name="FlashDevelop.Label.CustomArguments" xml:space="preserve">
+    <value>A&amp;gumentu Pertsonalizatuak...</value>
+  </data>
+  <data name="FlashDevelop.Group.Arguments" xml:space="preserve">
+    <value>Argumentuak</value>
+  </data>
+  <data name="FlashDevelop.Info.Argument" xml:space="preserve">
+    <value>Argumentua:</value>
+  </data>
+  <data name="FlashDevelop.Info.Details" xml:space="preserve">
+    <value>Xehetasunak</value>
+  </data>
+  <data name="FlashDevelop.Info.Key" xml:space="preserve">
+    <value>Giltza:</value>
+  </data>
+  <data name="FlashDevelop.Info.Undefined" xml:space="preserve">
+    <value>Definitu gabea</value>
+  </data>
+  <data name="FlashDevelop.Label.Add" xml:space="preserve">
+    <value>&amp;Gehitu</value>
+  </data>
+  <data name="FlashDevelop.Label.Delete" xml:space="preserve">
+    <value>&amp;Ezabatu</value>
+  </data>
+  <data name="FlashDevelop.Title.ArgumentDialog" xml:space="preserve">
+    <value>Argumentu Pertsonalizatuak</value>
+  </data>
+  <data name="FlashDevelop.Info.ArgumentsTakeEffect" xml:space="preserve">
+    <value>Argumentu pertsonalizatuek egoki editatu ondoren izanen dute eragina.</value>
+  </data>
+  <data name="FlashDevelop.Description.DefaultFont" xml:space="preserve">
+    <value>Programaren EI-rentzako lehenetsitako letra-mota definitzen da.</value>
+  </data>
+  <data name="FlashDevelop.Description.ConsoleFont" xml:space="preserve">
+    <value>Kontsola edo irteera kontroletan erabilitako letra mota.</value>
+  </data>
+  <data name="FlashDevelop.Description.ViewStatusBar" xml:space="preserve">
+    <value>Lehenetsitako egoera-barra erakusten da.</value>
+  </data>
+  <data name="FlashDevelop.Info.ArgumentFilter" xml:space="preserve">
+    <value>FlashDevelop-en Argumentuak (*.fda)</value>
+  </data>
+  <data name="FlashDevelop.Label.ExportArguments" xml:space="preserve">
+    <value>&amp;Argumentuak esportatu...</value>
+  </data>
+  <data name="FlashDevelop.Label.ImportArguments" xml:space="preserve">
+    <value>&amp;Argumentuak inportatu...</value>
+  </data>
+  <data name="FlashDevelop.Label.FullScreen" xml:space="preserve">
+    <value>P&amp;antaila osoa</value>
+  </data>
+  <data name="FlashDevelop.Group.Other" xml:space="preserve">
+    <value>Besteak</value>
+  </data>
+  <data name="FileExplorer.Label.ShellMenu" xml:space="preserve">
+    <value>Shell Menu...</value>
+  </data>
+  <data name="FileExplorer.Description.SynchronizeToProject" xml:space="preserve">
+    <value>Fitxategi bista uneko proiektuarekin sinkronizatzen da.</value>
+  </data>
+  <data name="FlashDevelop.Title.ArgReplaceDialog" xml:space="preserve">
+    <value>Argumentuak ordezkatu</value>
+  </data>
+  <data name="FlashDevelop.Info.CouldNotBeRecycled" xml:space="preserve">
+    <value>Ezin izanen da birziklatu:</value>
+  </data>
+  <data name="FlashDevelop.Info.CouldNotExecuteScript" xml:space="preserve">
+    <value>Script-a ezin izan da modu egokian exekutatu:</value>
+  </data>
+  <data name="MacroManager.Description.UserMacros" xml:space="preserve">
+    <value>Une honetan eskuragarri dauden makroen zerrenda.</value>
+  </data>
+  <data name="MacroManager.Group.Macros" xml:space="preserve">
+    <value>Makroak</value>
+  </data>
+  <data name="MacroManager.Info.CouldNotRunMacro" xml:space="preserve">
+    <value>Ezin izan da makroa exekutatu. Mesedez egiaztatu sintaxia.</value>
+  </data>
+  <data name="MacroManager.Info.Description" xml:space="preserve">
+    <value>Makro gaitasun sinpleak gehitzen dizkio FlashDevelop-i.</value>
+  </data>
+  <data name="MacroManager.Info.MacroFilter" xml:space="preserve">
+    <value>FlashDevelop-en makroak (*.fdm)</value>
+  </data>
+  <data name="MacroManager.Info.MacrosTakeEffect" xml:space="preserve">
+    <value>Ongi editatu bezain laster makroek eragina izanen dute.</value>
+  </data>
+  <data name="MacroManager.Info.Untitled" xml:space="preserve">
+    <value>Izengabea</value>
+  </data>
+  <data name="MacroManager.Label.Add" xml:space="preserve">
+    <value>&amp;Gehitu</value>
+  </data>
+  <data name="MacroManager.Label.Close" xml:space="preserve">
+    <value>&amp;Itxi</value>
+  </data>
+  <data name="MacroManager.Label.Delete" xml:space="preserve">
+    <value>&amp;Ezabatu</value>
+  </data>
+  <data name="MacroManager.Label.EditMacros" xml:space="preserve">
+    <value>&amp;Makroak editatu...</value>
+  </data>
+  <data name="MacroManager.Label.ExportMacros" xml:space="preserve">
+    <value>&amp;Makroak esportatu...</value>
+  </data>
+  <data name="MacroManager.Label.ImportMacros" xml:space="preserve">
+    <value>&amp;Makroak inportatu...</value>
+  </data>
+  <data name="MacroManager.Label.Macros" xml:space="preserve">
+    <value>&amp;Makroak</value>
+  </data>
+  <data name="MacroManager.Title.MacroDialog" xml:space="preserve">
+    <value>Makroak</value>
+  </data>
+  <data name="MacroManager.Description.AutoRun" xml:space="preserve">
+    <value>FlashDevelop hastean automatikoki makroa exekutatzen du. Gaitua badago, menuko elementua ez da erakutsiko.</value>
+  </data>
+  <data name="MacroManager.Description.Entries" xml:space="preserve">
+    <value>Makroaren banakako komandoak.</value>
+  </data>
+  <data name="MacroManager.Description.Label" xml:space="preserve">
+    <value>Makroaren menuko etiketa.</value>
+  </data>
+  <data name="MacroManager.Description.Image" xml:space="preserve">
+    <value>Internal image key of the macro menu item.</value>
+  </data>
+  <data name="FlashDevelop.Label.Restart" xml:space="preserve">
+    <value>Berr&amp;abiarazi</value>
+  </data>
+  <data name="FlashDevelop.Description.UseSystemColors" xml:space="preserve">
+    <value>Kontroletan sistemako koloreak erabiltzera behartzen du FlashDevelop.</value>
+  </data>
+  <data name="OutputPanel.Label.ClearSearchText" xml:space="preserve">
+    <value>Bilaketa testua garbitu</value>
+  </data>
+  <data name="OutputPanel.Label.SearchInvitation" xml:space="preserve">
+    <value>Bilatu...</value>
+  </data>
+  <data name="FlashDevelop.Info.FilterSettings" xml:space="preserve">
+    <value>Filtroen ezarpenak:</value>
+  </data>
+  <data name="FlashDevelop.Info.ShortcutEditInfo" xml:space="preserve">
+    <value>Item bat aukeratu eta menu item lasterbide teklak sakatuta lasterbideak editatu daitezke.</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Label.Command" xml:space="preserve">
+    <value>Komandoa</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Label.KeyboardShortcuts" xml:space="preserve">
+    <value>Teklatu L&amp;asterbideak...</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Label.Shortcut" xml:space="preserve">
+    <value>Lasterbidea</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Title.Shortcuts" xml:space="preserve">
+    <value>Lasterbideak</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Info.UnableToLoadPlugin" xml:space="preserve">
+    <value>Plugin bateraezina ezin izan da kargatu:</value>
+    <comment>Modified after 3.3.4</comment>
+  </data>
+  <data name="MacroManager.Description.Shortcut" xml:space="preserve">
+    <value>Makroaren Menu lasterbide tekla.</value>
+  </data>
+  <data name="FlashDevelop.Info.ShortcutIsAlreadyUsed" xml:space="preserve">
+    <value>Lasterbidea beste komando bati esleitua dago.</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Description.ConfirmOnExit" xml:space="preserve">
+    <value>Programa ixtea baieztatu irteterakoan.</value>
+    <comment>Added after 3.3.2</comment>
+  </data>
+  <data name="FlashDevelop.Info.AreYouSureToExit" xml:space="preserve">
+    <value>Ziur zaude .NET RCP -etik irten nahi duzula?</value>
+    <comment>Added after 3.3.2</comment>
+  </data>
+  <data name="FlashDevelop.Category.Locale" xml:space="preserve">
+    <value>Lokalizazioa</value>
+    <comment>Added after 3.3.2</comment>
+  </data>
+  <data name="FlashDevelop.Info.ThemesFilter" xml:space="preserve">
+    <value>FlashDevelop Theme Fitxategiak(*.fdi, *.fdz)|*.fdi;*.fdz</value>
+    <comment>Added after 4.2.4</comment>
+  </data>
+  <data name="FlashDevelop.Label.SelectTheme" xml:space="preserve">
+    <value>Erabiltzaile interfazearen Theme-a aukeratu...</value>
+    <comment>Added after 4.2.4</comment>
+  </data>
+  <data name="FlashDevelop.Title.InfoDialog" xml:space="preserve">
+    <value>Informazioa</value>
+  </data>
+  <data name="FlashDevelop.Label.PropertiesWindow" xml:space="preserve">
+    <value>Propietateak leihoa</value>
+  </data>
+  <data name="FlashDevelop.Label.Properties" xml:space="preserve">
+    <value>Propietateak</value>
+  </data>
+</root>

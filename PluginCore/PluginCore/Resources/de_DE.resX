@@ -1,0 +1,710 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FileExplorer.Description.FilePath" xml:space="preserve">
+    <value>Zuletzt durchsuchten Dateipfad.</value>
+  </data>
+  <data name="FileExplorer.Description.SortColumn" xml:space="preserve">
+    <value>Aktuelle Spalte die sortiert wurde.</value>
+  </data>
+  <data name="FileExplorer.Description.SortOrder" xml:space="preserve">
+    <value>Die Sortierreihenfolge der aktuellen Spalte.</value>
+  </data>
+  <data name="FileExplorer.Header.Files" xml:space="preserve">
+    <value>Dateien</value>
+  </data>
+  <data name="FileExplorer.Header.Modified" xml:space="preserve">
+    <value>Verändert</value>
+  </data>
+  <data name="FileExplorer.Header.Size" xml:space="preserve">
+    <value>Größe</value>
+  </data>
+  <data name="FileExplorer.Header.Type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="FileExplorer.Info.BrowseDescription" xml:space="preserve">
+    <value>Öffnet einen Ordner um dessen Dateien anzuzeigen.</value>
+  </data>
+  <data name="FileExplorer.Info.ConfirmDelete" xml:space="preserve">
+    <value>Wollen Sie die ausgewählten Dateien wirklich löschen?</value>
+  </data>
+  <data name="FileExplorer.Info.Description" xml:space="preserve">
+    <value>Fügt FlashDevelop ein Dateibrowser hinzu.</value>
+  </data>
+  <data name="FileExplorer.Info.Kilobytes" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="FileExplorer.Info.NewFileName" xml:space="preserve">
+    <value>Neue Datei</value>
+  </data>
+  <data name="FileExplorer.Info.NewFolderName" xml:space="preserve">
+    <value>Neuer Ordner</value>
+  </data>
+  <data name="FileExplorer.Label.CommandPromptHere" xml:space="preserve">
+    <value>&amp;Eingabeaufforderung ab hier...</value>
+  </data>
+  <data name="FileExplorer.Label.Copy" xml:space="preserve">
+    <value>&amp;Kopieren</value>
+  </data>
+  <data name="FileExplorer.Label.CreateFileHere" xml:space="preserve">
+    <value>&amp;Erstelle Datei hier...</value>
+  </data>
+  <data name="FileExplorer.Label.CreateFolderHere" xml:space="preserve">
+    <value>Erstelle &amp;Ordner hier...</value>
+  </data>
+  <data name="FileExplorer.Label.Delete" xml:space="preserve">
+    <value>&amp;Löschen</value>
+  </data>
+  <data name="FileExplorer.Label.Edit" xml:space="preserve">
+    <value>&amp;Bearbeiten</value>
+  </data>
+  <data name="FileExplorer.Label.ExploreHere" xml:space="preserve">
+    <value>E&amp;xplorer hier starten...</value>
+  </data>
+  <data name="FileExplorer.Label.Paste" xml:space="preserve">
+    <value>Ein&amp;fügen</value>
+  </data>
+  <data name="FileExplorer.Label.RefreshView" xml:space="preserve">
+    <value>&amp;Aktualisieren</value>
+  </data>
+  <data name="FileExplorer.Label.Rename" xml:space="preserve">
+    <value>&amp;Umbenennen</value>
+  </data>
+  <data name="FileExplorer.Label.Run" xml:space="preserve">
+    <value>&amp;Ausführen</value>
+  </data>
+  <data name="FileExplorer.Label.SynchronizeView" xml:space="preserve">
+    <value>Ansicht S&amp;ychronisieren</value>
+  </data>
+  <data name="FileExplorer.Label.TrustHere" xml:space="preserve">
+    <value>Zu &amp;Trusted Paths hinzufügen</value>
+  </data>
+  <data name="FileExplorer.Label.ViewMenuItem" xml:space="preserve">
+    <value>&amp;Datei Explorer</value>
+  </data>
+  <data name="FileExplorer.Title.PluginPanel" xml:space="preserve">
+    <value>Dateien</value>
+  </data>
+  <data name="FileExplorer.ToolTip.Browse" xml:space="preserve">
+    <value>Durchsuchen</value>
+  </data>
+  <data name="FileExplorer.ToolTip.Synchronize" xml:space="preserve">
+    <value>Synchronisieren</value>
+  </data>
+  <data name="FlashDevelop.Category.Display" xml:space="preserve">
+    <value>Anzeige</value>
+  </data>
+  <data name="FlashDevelop.Category.Features" xml:space="preserve">
+    <value>Features</value>
+  </data>
+  <data name="FlashDevelop.Category.Indenting" xml:space="preserve">
+    <value>Einrückung</value>
+  </data>
+  <data name="FlashDevelop.Category.State" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="FlashDevelop.Description.ComboBoxFlatStyle" xml:space="preserve">
+    <value>Darstellung der Kombinationsfelder in den Menüleisten.</value>
+  </data>
+  <data name="FlashDevelop.Description.DisabledPlugins" xml:space="preserve">
+    <value>Liste der deaktivierten Plugins.</value>
+  </data>
+  <data name="FlashDevelop.Description.LatestDialogPath" xml:space="preserve">
+    <value>Zuletzt verwendeter Pfad.</value>
+  </data>
+  <data name="FlashDevelop.Description.LocaleVersion" xml:space="preserve">
+    <value>Aktuell verwendete Sprache des Programms (Neustart erforderlich).</value>
+  </data>
+  <data name="FlashDevelop.Description.RenderMode" xml:space="preserve">
+    <value>Gibt an, wie die Programmoberfläche dargestellt wird (Neustart erforderlich).</value>
+  </data>
+  <data name="FlashDevelop.Description.RestoreFileSession" xml:space="preserve">
+    <value>Öffnet bei Programmstart die zuletzt geöffneten Dokumente.</value>
+  </data>
+  <data name="FlashDevelop.Description.SequentialTabbing" xml:space="preserve">
+    <value>Verhalten der Tabs</value>
+  </data>
+  <data name="FlashDevelop.Description.ViewToolBar" xml:space="preserve">
+    <value>Zeigt die Menüleise an.</value>
+  </data>
+  <data name="FlashDevelop.Description.WindowPosition" xml:space="preserve">
+    <value>Letzte Fensteposition.</value>
+  </data>
+  <data name="FlashDevelop.Description.WindowSize" xml:space="preserve">
+    <value>Letze Fenstergröße.</value>
+  </data>
+  <data name="FlashDevelop.Description.WindowState" xml:space="preserve">
+    <value>Letzter Fensterstatus (maximiert, minimiert, frei schwebend)</value>
+  </data>
+  <data name="FlashDevelop.Group.Main" xml:space="preserve">
+    <value>Haupteinstellungen</value>
+  </data>
+  <data name="FlashDevelop.Group.Plugins" xml:space="preserve">
+    <value>Plugins</value>
+  </data>
+  <data name="FlashDevelop.Info.AppDescription" xml:space="preserve">
+    <value>Das Hauptprogramm und die Pluginverwaltung.</value>
+  </data>
+  <data name="FlashDevelop.Info.Disable" xml:space="preserve">
+    <value>Deaktivieren</value>
+  </data>
+  <data name="FlashDevelop.Info.ErrorOccurred" xml:space="preserve">
+    <value>Eine Ausnahme ist in FlashDevelop aufgetreten:</value>
+  </data>
+  <data name="FlashDevelop.Info.ErrorsInThisSession" xml:space="preserve">
+    <value>Fehler seit Programmaufruf:</value>
+  </data>
+  <data name="FlashDevelop.Info.Help" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="FlashDevelop.Info.NoItemSelected" xml:space="preserve">
+    <value>(nichts ausgewählt)</value>
+  </data>
+  <data name="FlashDevelop.Info.OnlyErrorManager" xml:space="preserve">
+    <value>Nur der ErrorManager ist berechtigt den Fehlerdialog direkt anzuzeigen.</value>
+  </data>
+  <data name="FlashDevelop.Info.ProcessAlreadyRunning" xml:space="preserve">
+    <value>Ein Prozess wird zur Zeit ausgeführt.</value>
+  </data>
+  <data name="FlashDevelop.Info.RunningProcess" xml:space="preserve">
+    <value>Starte Prozess:</value>
+  </data>
+  <data name="FlashDevelop.Info.SettingsTakeEffect" xml:space="preserve">
+    <value>Die Einstellungen werden sofort übernommen, doch benötigen mache einen Neustart des Programms.</value>
+  </data>
+  <data name="FlashDevelop.Info.UntitledFileStart" xml:space="preserve">
+    <value>Unbenannt</value>
+  </data>
+  <data name="FlashDevelop.Info.Value" xml:space="preserve">
+    <value>Wert:</value>
+  </data>
+  <data name="FlashDevelop.Label.About" xml:space="preserve">
+    <value>Ü&amp;ber .NET RCP...</value>
+  </data>
+  <data name="FlashDevelop.Label.ApplicationFiles" xml:space="preserve">
+    <value>&amp;Anwendungsdateien...</value>
+    <comment>Modified after 4.2.4</comment>
+  </data>
+  <data name="FlashDevelop.Label.Back" xml:space="preserve">
+    <value>Zurück</value>
+  </data>
+  <data name="FlashDevelop.Label.Cancel" xml:space="preserve">
+    <value>&amp;Abbrechen</value>
+  </data>
+  <data name="FlashDevelop.Label.Close" xml:space="preserve">
+    <value>Schlie&amp;ßen</value>
+  </data>
+  <data name="FlashDevelop.Label.CloseAll" xml:space="preserve">
+    <value>All&amp;e Schließen</value>
+  </data>
+  <data name="FlashDevelop.Label.CloseOthers" xml:space="preserve">
+    <value>An&amp;dere schließen</value>
+  </data>
+  <data name="FlashDevelop.Label.CommandPrompt" xml:space="preserve">
+    <value>&amp;Eingabeaufforderung</value>
+  </data>
+  <data name="FlashDevelop.Label.Continue" xml:space="preserve">
+    <value>&amp;Weiter</value>
+  </data>
+  <data name="FlashDevelop.Label.Exit" xml:space="preserve">
+    <value>Be&amp;enden</value>
+  </data>
+  <data name="FlashDevelop.Label.FDDocs" xml:space="preserve">
+    <value>&amp;Online Dokumentation...</value>
+  </data>
+  <data name="FlashDevelop.Label.FDHome" xml:space="preserve">
+    <value>&amp;FlashDevelop Website...</value>
+  </data>
+  <data name="FlashDevelop.Label.File" xml:space="preserve">
+    <value>&amp;Datei</value>
+  </data>
+  <data name="FlashDevelop.Label.Forward" xml:space="preserve">
+    <value>Weiter</value>
+  </data>
+  <data name="FlashDevelop.Label.GeneralTools" xml:space="preserve">
+    <value>&amp;Allgemeine Tools</value>
+  </data>
+  <data name="FlashDevelop.Label.Go" xml:space="preserve">
+    <value>Los</value>
+  </data>
+  <data name="FlashDevelop.Label.Help" xml:space="preserve">
+    <value>&amp;Hilfe</value>
+  </data>
+  <data name="FlashDevelop.Label.Ok" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="FlashDevelop.Label.ProgramSettings" xml:space="preserve">
+    <value>&amp;Programmeinstellungen...</value>
+  </data>
+  <data name="FlashDevelop.Label.Refresh" xml:space="preserve">
+    <value>Aktualisieren</value>
+  </data>
+  <data name="FlashDevelop.Label.ReleaseNotes" xml:space="preserve">
+    <value>&amp;Release Notes...</value>
+  </data>
+  <data name="FlashDevelop.Label.Search" xml:space="preserve">
+    <value>&amp;Suchen</value>
+  </data>
+  <data name="FlashDevelop.Label.Tools" xml:space="preserve">
+    <value>E&amp;xtras</value>
+  </data>
+  <data name="FlashDevelop.Label.View" xml:space="preserve">
+    <value>&amp;Ansicht</value>
+  </data>
+  <data name="FlashDevelop.Label.WindowsExplorer" xml:space="preserve">
+    <value>Windows &amp;Explorer</value>
+  </data>
+  <data name="FlashDevelop.Title.AboutDialog" xml:space="preserve">
+    <value>Über FlashDevelop</value>
+  </data>
+  <data name="FlashDevelop.Title.ConfirmDialog" xml:space="preserve">
+    <value>Bestätige</value>
+  </data>
+  <data name="FlashDevelop.Title.CustomDocument" xml:space="preserve">
+    <value>Lade...</value>
+  </data>
+  <data name="FlashDevelop.Title.ErrorDialog" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="FlashDevelop.Title.InfoDialog" xml:space="preserve">
+    <value>Informationen</value>
+  </data>
+  <data name="FlashDevelop.Title.SettingDialog" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="FlashDevelop.Title.WarningDialog" xml:space="preserve">
+    <value>Warnung</value>
+  </data>
+  <data name="LayoutManager.Description.CustomLayoutPath" xml:space="preserve">
+    <value>Pfad zum benutzerdefinierten Verzeichnis, welches die Layouteinstellungen beinhaltet.</value>
+  </data>
+  <data name="LayoutManager.Info.Description" xml:space="preserve">
+    <value>Fügt FlashDevelop eine Layoutverwaltung hinzu.</value>
+  </data>
+  <data name="LayoutManager.Info.NoLayoutsFound" xml:space="preserve">
+    <value>Keine gespeicherten Layouts gefunden.</value>
+  </data>
+  <data name="LayoutManager.Info.OpenFileFilter" xml:space="preserve">
+    <value>FlashDevelop Layouts (*.fdl)|*.fdl</value>
+  </data>
+  <data name="LayoutManager.Label.DeleteLayout" xml:space="preserve">
+    <value>Layout &amp;löschen</value>
+  </data>
+  <data name="LayoutManager.Label.LoadLayout" xml:space="preserve">
+    <value>Layout l&amp;aden</value>
+  </data>
+  <data name="LayoutManager.Label.SaveCurrent" xml:space="preserve">
+    <value>Layout &amp;speichern...</value>
+  </data>
+  <data name="LayoutManager.Label.ShowSettings" xml:space="preserve">
+    <value>&amp;Einstellungen anzeigen...</value>
+  </data>
+  <data name="LayoutManager.Label.ViewMenuItem" xml:space="preserve">
+    <value>&amp;Layoutverwaltung</value>
+  </data>
+  <data name="LayoutManager.Title.PluginPanel" xml:space="preserve">
+    <value>Layouts</value>
+  </data>
+  <data name="OutputPanel.Description.ShowOnOutput" xml:space="preserve">
+    <value>Öffne automatisch das Ausgabefenster wenn neue Daten ausgegeben werden.</value>
+  </data>
+  <data name="OutputPanel.Description.ShowOnProcessEnd" xml:space="preserve">
+    <value>Öffne automatisch das Ausgabefenster wenn ein Prozess beendet wurde.</value>
+  </data>
+  <data name="OutputPanel.Description.WrapOutput" xml:space="preserve">
+    <value>Bricht den Ausgabetext um.</value>
+  </data>
+  <data name="OutputPanel.Info.Description" xml:space="preserve">
+    <value>Fügt FlashDevelop ein Ausgabefenster hinzu.</value>
+  </data>
+  <data name="OutputPanel.Label.ClearOutput" xml:space="preserve">
+    <value>Ausgabe &amp;löschen</value>
+  </data>
+  <data name="OutputPanel.Label.CopyOutput" xml:space="preserve">
+    <value>Ausgabe &amp;kopieren</value>
+  </data>
+  <data name="OutputPanel.Label.ViewMenuItem" xml:space="preserve">
+    <value>Aus&amp;gabe</value>
+  </data>
+  <data name="OutputPanel.Label.WrapText" xml:space="preserve">
+    <value>Text &amp;umbrechen</value>
+  </data>
+  <data name="OutputPanel.Title.PluginPanel" xml:space="preserve">
+    <value>Ausgabe</value>
+  </data>
+  <data name="PluginCore.Docking.ToolTipAutoHide" xml:space="preserve">
+    <value>Automatisch ausblenden</value>
+  </data>
+  <data name="PluginCore.Docking.ToolTipClose" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="PluginCore.Docking.ToolTipOptions" xml:space="preserve">
+    <value>Optionen</value>
+  </data>
+  <data name="PluginCore.Docking.ToolTipWindowList" xml:space="preserve">
+    <value>Liste der geöffneten Fenster</value>
+  </data>
+  <data name="StartPage.Category.Common" xml:space="preserve">
+    <value>Gemeinsam</value>
+  </data>
+  <data name="StartPage.Category.Custom" xml:space="preserve">
+    <value>Benutzerdefiniert</value>
+  </data>
+  <data name="StartPage.Description.CloseOnProjectOpen" xml:space="preserve">
+    <value>Schließt die Startseite wenn ein Projekt geöffnet wird. Ist "Startseite anstatt unbenanntes Dokument anzeigen" auch aktiviert, bleibt die Startseite geöffnet falls es das einzige geöffnete Fenster ist.</value>
+  </data>
+  <data name="StartPage.Description.CustomRssFeed" xml:space="preserve">
+    <value>Url eines eigenen RSS-Feeds.</value>
+  </data>
+  <data name="StartPage.Description.CustomStartPage" xml:space="preserve">
+    <value>Pfad zu einer eigenen Startseite.</value>
+  </data>
+  <data name="StartPage.Description.ShowStartPageInsteadOfUntitled" xml:space="preserve">
+    <value>Zeige die Startseite wenn alle Dokumente geschlossen sind anstatt ein unbenanntes Dokument anzuzeigen.</value>
+  </data>
+  <data name="StartPage.Description.ShowStartPageOnStartup" xml:space="preserve">
+    <value>Was soll passieren wenn Sie FlashDevelop öffnen:
+Always - FlashDevelop wird nicht das letze Projekt laden sondern die Startseite anzeigen.
+NotRestoringSession - Startseite wird beim Start angezeigt. 
+Never - Startseite wird nie angezeigt.</value>
+  </data>
+  <data name="StartPage.Description.UseCustomRssFeed" xml:space="preserve">
+    <value>Benutze eigenen RSS-Feed.</value>
+  </data>
+  <data name="StartPage.Description.UseCustomStartPage" xml:space="preserve">
+    <value>Benutze eigene Startseite.</value>
+  </data>
+  <data name="StartPage.Label.ViewMenuItem" xml:space="preserve">
+    <value>&amp;Startseite</value>
+  </data>
+  <data name="StartPage.Title.StartPage" xml:space="preserve">
+    <value>Startseite</value>
+  </data>
+  <data name="FileExplorer.Info.PathTrusted" xml:space="preserve">
+    <value>wurde zu den Flash Player Trusted Paths hinzugefügt.</value>
+  </data>
+  <data name="StartPage.Info.Description" xml:space="preserve">
+    <value>Fügt FlashDevelop eine Startseite hinzu.</value>
+  </data>
+  <data name="FlashDevelop.Title.OpenFileDialog" xml:space="preserve">
+    <value>Datei öffnen</value>
+  </data>
+  <data name="FlashDevelop.Label.CustomArguments" xml:space="preserve">
+    <value>&amp;Benutzerdefinierte Argumente...</value>
+  </data>
+  <data name="FlashDevelop.Group.Arguments" xml:space="preserve">
+    <value>Argumente</value>
+  </data>
+  <data name="FlashDevelop.Info.Argument" xml:space="preserve">
+    <value>Argument:</value>
+  </data>
+  <data name="FlashDevelop.Info.Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="FlashDevelop.Info.Key" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="FlashDevelop.Info.Undefined" xml:space="preserve">
+    <value>Undefiniert</value>
+  </data>
+  <data name="FlashDevelop.Label.Add" xml:space="preserve">
+    <value>&amp;Hinzufügen</value>
+  </data>
+  <data name="FlashDevelop.Label.Delete" xml:space="preserve">
+    <value>&amp;Löschen</value>
+  </data>
+  <data name="FlashDevelop.Title.ArgumentDialog" xml:space="preserve">
+    <value>Benutzerdefinierte Argumente</value>
+  </data>
+  <data name="FlashDevelop.Info.ArgumentsTakeEffect" xml:space="preserve">
+    <value>Diese Argumente sind sofort verfübar sobald sie eingetragen wurden.</value>
+  </data>
+  <data name="FlashDevelop.Description.DefaultFont" xml:space="preserve">
+    <value>Standardschriftart des Programms.</value>
+  </data>
+  <data name="FlashDevelop.Description.ConsoleFont" xml:space="preserve">
+    <value>Konsolenschriftart.</value>
+  </data>
+  <data name="FlashDevelop.Description.ViewStatusBar" xml:space="preserve">
+    <value>Zeigt die Statuszeile an.</value>
+  </data>
+  <data name="FlashDevelop.Info.ArgumentFilter" xml:space="preserve">
+    <value>FlashDevelop Argumente (*.fda)</value>
+  </data>
+  <data name="FlashDevelop.Label.ExportArguments" xml:space="preserve">
+    <value>Argumente &amp;exportieren...</value>
+  </data>
+  <data name="FlashDevelop.Label.ImportArguments" xml:space="preserve">
+    <value>Argumente &amp;importieren...</value>
+  </data>
+  <data name="FlashDevelop.Label.FullScreen" xml:space="preserve">
+    <value>V&amp;ollbild</value>
+  </data>
+  <data name="FlashDevelop.Group.Other" xml:space="preserve">
+    <value>Andere</value>
+  </data>
+  <data name="FileExplorer.Label.ShellMenu" xml:space="preserve">
+    <value>Explorermenu...</value>
+  </data>
+  <data name="FileExplorer.Description.SynchronizeToProject" xml:space="preserve">
+    <value>Synchronisiert den Dateibrowser mit dem aktuellen Projekt.</value>
+  </data>
+  <data name="FlashDevelop.Title.ArgReplaceDialog" xml:space="preserve">
+    <value>Ersetze Argumente</value>
+  </data>
+  <data name="FlashDevelop.Info.CouldNotBeRecycled" xml:space="preserve">
+    <value>Konnte nicht in den Papierkorb verschoben werden:</value>
+  </data>
+  <data name="FlashDevelop.Info.CouldNotExecuteScript" xml:space="preserve">
+    <value>Das Script konnte nicht ausgeführt werden:</value>
+  </data>
+  <data name="MacroManager.Description.UserMacros" xml:space="preserve">
+    <value>Liste der zur Zeit verfügbaren Makros.</value>
+  </data>
+  <data name="MacroManager.Group.Macros" xml:space="preserve">
+    <value>Makros</value>
+  </data>
+  <data name="MacroManager.Info.CouldNotRunMacro" xml:space="preserve">
+    <value>Makro konnte nicht ausgeführt werden. Bitte überprüfen Sie die Syntax.</value>
+  </data>
+  <data name="MacroManager.Info.Description" xml:space="preserve">
+    <value>Fügt FlashDevelop einfache Makrofähigkeiten hinzu.</value>
+  </data>
+  <data name="MacroManager.Info.MacroFilter" xml:space="preserve">
+    <value>FlashDevelop Makros (*.fdm)</value>
+  </data>
+  <data name="MacroManager.Info.MacrosTakeEffect" xml:space="preserve">
+    <value>Makroänderungen werden sofort übernommen.</value>
+  </data>
+  <data name="MacroManager.Info.Untitled" xml:space="preserve">
+    <value>Unbenannt</value>
+  </data>
+  <data name="MacroManager.Label.Add" xml:space="preserve">
+    <value>&amp;Hinzufügen</value>
+  </data>
+  <data name="MacroManager.Label.Close" xml:space="preserve">
+    <value>&amp;Schließen</value>
+  </data>
+  <data name="MacroManager.Label.Delete" xml:space="preserve">
+    <value>&amp;Löschen</value>
+  </data>
+  <data name="MacroManager.Label.EditMacros" xml:space="preserve">
+    <value>Makros &amp;bearbeiten...</value>
+  </data>
+  <data name="MacroManager.Label.ExportMacros" xml:space="preserve">
+    <value>Makros &amp;exportieren...</value>
+  </data>
+  <data name="MacroManager.Label.ImportMacros" xml:space="preserve">
+    <value>Makros &amp;importieren...</value>
+  </data>
+  <data name="MacroManager.Label.Macros" xml:space="preserve">
+    <value>&amp;Makros</value>
+  </data>
+  <data name="MacroManager.Title.MacroDialog" xml:space="preserve">
+    <value>Makros</value>
+  </data>
+  <data name="MacroManager.Description.AutoRun" xml:space="preserve">
+    <value>Füht die Makros automatisch aus wenn FlashDevelop gestartet wird. Wenn die Funktion aktiviert wird, verschwindet der entsprechende Menüeintrag.</value>
+  </data>
+  <data name="MacroManager.Description.Entries" xml:space="preserve">
+    <value>Befehle des Makros.</value>
+  </data>
+  <data name="MacroManager.Description.Label" xml:space="preserve">
+    <value>Menübezeichnung des Makros.</value>
+  </data>
+  <data name="MacroManager.Description.Shortcut" xml:space="preserve">
+    <value>Tastenkombination des Makros.</value>
+  </data>
+  <data name="MacroManager.Description.Image" xml:space="preserve">
+    <value>Interner Bild-Schlüssel des Makro Menüeintrags.</value>
+  </data>
+  <data name="FlashDevelop.Label.Restart" xml:space="preserve">
+    <value>&amp;Neu starten</value>
+  </data>
+  <data name="FlashDevelop.Description.UseSystemColors" xml:space="preserve">
+    <value>Zwingt FlashDevelop Systemfarben zu verwenden.</value>
+  </data>
+  <data name="OutputPanel.Label.ClearSearchText" xml:space="preserve">
+    <value>Filter löschen</value>
+  </data>
+  <data name="OutputPanel.Label.SearchInvitation" xml:space="preserve">
+    <value>Suche...</value>
+  </data>
+  <data name="FlashDevelop.Info.FilterSettings" xml:space="preserve">
+    <value>Suche:</value>
+  </data>
+  <data name="FlashDevelop.Info.ShortcutEditInfo" xml:space="preserve">
+    <value>Wählen Sie einen Eintrag aus und drücken Sie die gewünschte Tastenkombination.</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Label.Command" xml:space="preserve">
+    <value>Befehl</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Label.KeyboardShortcuts" xml:space="preserve">
+    <value>Tasten&amp;kombinationen...</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Label.RemoveShortcut" xml:space="preserve">
+    <value>&amp;Tastenkombination entfernen</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Label.Shortcut" xml:space="preserve">
+    <value>Tastenkombination</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Title.Shortcuts" xml:space="preserve">
+    <value>Tastenkombinationen</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Info.UnableToLoadPlugin" xml:space="preserve">
+    <value>Folgendes Plugin konnte nicht geladen werden:</value>
+    <comment>Modified after 3.3.4</comment>
+  </data>
+  <data name="FlashDevelop.Info.ShortcutIsAlreadyUsed" xml:space="preserve">
+    <value>Die Tastenkombination wird bereits von einem anderen Befehl verwendet.</value>
+    <comment>Added after 3.3.1</comment>
+  </data>
+  <data name="FlashDevelop.Description.ConfirmOnExit" xml:space="preserve">
+    <value>Abfrage beim Schließen des Programms.</value>
+    <comment>Added after 3.3.2</comment>
+  </data>
+  <data name="FlashDevelop.Info.AreYouSureToExit" xml:space="preserve">
+    <value>Möchten Sie .NET RCP wirklich beenden?</value>
+    <comment>Added after 3.3.2</comment>
+  </data>
+  <data name="FlashDevelop.Category.Locale" xml:space="preserve">
+    <value>Sprachumgebung</value>
+    <comment>Added after 3.3.2</comment>
+  </data>
+  <data name="FlashDevelop.Info.ThemesFilter" xml:space="preserve">
+    <value>FlashDevelop Theme Dateien (*.fdi, *.fdz)|*.fdi;*.fdz</value>
+    <comment>Added after 4.2.4</comment>
+  </data>
+  <data name="FlashDevelop.Label.SelectTheme" xml:space="preserve">
+    <value>Wähle UI Theme...</value>
+    <comment>Added after 4.2.4</comment>
+  </data>
+  <data name="FlashDevelop.Label.PropertiesWindow" xml:space="preserve">
+    <value>Eigenschaftenfenster</value>
+  </data>
+  <data name="FlashDevelop.Label.Properties" xml:space="preserve">
+    <value>Eigenschaft</value>
+  </data>
+</root>
