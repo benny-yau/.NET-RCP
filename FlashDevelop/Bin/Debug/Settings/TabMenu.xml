@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tabmenu>
+	<button label="Open in Default Browser" click="OpenDefaultBrowser" flags="Visible:IsBrowsable" />
+	<button label="Duplicate" click="Duplicate" flags="Visible:IsBrowsable" />
+	<button label="Save as" click="SaveWebsiteAs" flags="Visible:IsBrowsable" />
+	<separator flags="Visible:IsBrowsable" />
+	<button label="Label.Close" click="Close" />
+	<button label="Label.CloseOthers" click="CloseOthers" />
+	<button label="Label.CloseAll" click="CloseAll" />
+</tabmenu>

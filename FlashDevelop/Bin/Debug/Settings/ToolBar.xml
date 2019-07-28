@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<toolbar>
+	<button label="Label.ProgramSettings" click="ShowSettings" image="127" />
+	<button label="File Explorer" click="PluginCommand" tag="FileExplorer.OpenPanel" image="209" />
+	<button label="Label.CommandPrompt" click="PluginCommand" tag="FileExplorer.PromptHere;$(WorkingDir)" image="57" />
+	<button label="Label.WindowsExplorer" click="PluginCommand" tag="FileExplorer.Explore;$(WorkingDir)" image="46" />
+	<button label="Browse Website" click="Browse" tag="http://www.bing.com/" image="480" />
+</toolbar>

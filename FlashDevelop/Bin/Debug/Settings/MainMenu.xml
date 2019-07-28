@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mainmenu>
+	<menu label="Label.File" name="FileMenu">
+		<button label="Label.Restart" click="Restart" image="24" flags="Enable:!MultiInstanceMode" />
+		<button label="Label.Exit" click="Exit" />
+	</menu>
+	<menu label="Label.View" name="ViewMenu">
+		<button label="Label.FullScreen" click="ToggleFullScreen" image="227" shortcut="Shift|Alt|Enter" flags="Check:IsFullScreen" />
+		<separator />
+	</menu>
+	<menu label="Label.Tools" name="ToolsMenu">
+		<menu label="Label.GeneralTools" name="GeneralToolsMenu">
+			<button label="Label.CommandPrompt" click="PluginCommand" tag="FileExplorer.PromptHere;$(WorkingDir)" image="57" />
+			<button label="Label.WindowsExplorer" click="PluginCommand" tag="FileExplorer.Explore;$(WorkingDir)" image="56" />
+		</menu>
+		<button label="Label.SelectTheme" click="SelectTheme" image="40|30|2|3" />
+		<separator />
+		<button label="Label.KeyboardShortcuts" click="EditShortcuts" image="49|15|2|2" />
+		<button label="Label.CustomArguments" click="ShowArguments" image="242" />
+		<button label="Label.ApplicationFiles" click="PluginCommand" tag="FileExplorer.Explore;$(BaseDir)" image="46|30|2|3" />
+		<!--<button label="Label.BackupSettings" click="BackupSettings" image="54|9|3|3" flags="Enable:!StandaloneMode" />-->
+		<button label="Label.ProgramSettings" click="ShowSettings" image="54" />
+	</menu>
+
+	<menu label="Label.Help" name="HelpMenu">
+		<button label="Label.ReleaseNotes" click="Browse" tag="$(AppDir)\Docs\index.html" image="222" />
+		<button label="Label.FDDocs" click="Browse" tag="http://www.flashdevelop.org/wikidocs/" image="95" />
+		<button label="Label.FDHome" click="Browse" tag="http://www.flashdevelop.org/" image="224" />
+
+		<button label="Label.About" click="About" image="229" />
+	</menu>
+</mainmenu>
