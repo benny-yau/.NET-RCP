@@ -1,3 +1,4 @@
+using System;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -32,21 +33,28 @@ namespace WeifenLuo.WinFormsUI.Docking
 
             protected bool BeginDrag()
             {
-                // Avoid re-entrance;
-                lock (this)
+                try
                 {
-                    if (DragControl == null)
-                        return false;
+                    // Avoid re-entrance;
+                    lock (this)
+                    {
+                        if (DragControl == null)
+                            return false;
 
-                    StartMousePosition = Control.MousePosition;
+                        StartMousePosition = Control.MousePosition;
 
-                    if (!NativeMethods.DragDetect(DragControl.Handle, StartMousePosition))
-                        return false;
+                        if (!NativeMethods.DragDetect(DragControl.Handle, StartMousePosition))
+                            return false;
 
-                    DragControl.FindForm().Capture = true;
-                    AssignHandle(DragControl.FindForm().Handle);
-                    Application.AddMessageFilter(this);
-                    return true;
+                        DragControl.FindForm().Capture = true;
+                        AssignHandle(DragControl.FindForm().Handle);
+                        Application.AddMessageFilter(this);
+                        return true;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    return false;
                 }
             }
 
@@ -56,11 +64,18 @@ namespace WeifenLuo.WinFormsUI.Docking
 
             private void EndDrag(bool abort)
             {
-                ReleaseHandle();
-                Application.RemoveMessageFilter(this);
-                DragControl.FindForm().Capture = false;
+                try
+                {
+                    ReleaseHandle();
+                    Application.RemoveMessageFilter(this);
+                    DragControl.FindForm().Capture = false;
 
-                OnEndDrag(abort);
+                    OnEndDrag(abort);
+                }
+                catch (Exception ex)
+                {
+
+                }
             }
 
             bool IMessageFilter.PreFilterMessage(ref Message m)
