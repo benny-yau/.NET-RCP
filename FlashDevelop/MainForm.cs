@@ -45,6 +45,7 @@ namespace FlashDevelop
             this.InitializeComponents();
             this.InitializeProcessRunner();
             this.InitializeMainForm();
+
         }
 
         /// <summary>
@@ -668,7 +669,6 @@ namespace FlashDevelop
         /// </summary>
         private void OnMainFormShow(Object sender, System.EventArgs e)
         {
-            this.WindowState = this.appSettings.WindowState;
         }
 
         /// <summary>
@@ -729,6 +729,7 @@ namespace FlashDevelop
             this.ApplyAllSettings();
             // Remove splash screen
             SplashScreenForm.SplashScreen.Dispose();
+            this.WindowState = this.appSettings.WindowState;
         }
 
         /// <summary>
