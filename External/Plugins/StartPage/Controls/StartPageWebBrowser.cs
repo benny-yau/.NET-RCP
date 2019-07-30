@@ -37,7 +37,7 @@ namespace StartPage.Controls
         /// </summary>
         private void InitializeComponent()
         {
-            this.webBrowser = new StartPage.Controls.WebBrowserEx();
+            this.webBrowser = new WebBrowserEx();
             this.SuspendLayout();
             // 
             // webBrowser
@@ -48,20 +48,20 @@ namespace StartPage.Controls
             this.webBrowser.Location = new System.Drawing.Point(0, 0);
             this.webBrowser.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser.Name = "webBrowser";
-            this.webBrowser.Size = new System.Drawing.Size(873, 581);
+            this.webBrowser.Size = new System.Drawing.Size(696, 602);
             this.webBrowser.TabIndex = 0;
             this.webBrowser.WebBrowserShortcutsEnabled = false;
             this.webBrowser.Navigating += new System.Windows.Forms.WebBrowserNavigatingEventHandler(this.WebBrowserNavigating);
             this.webBrowser.NewWindow += new System.ComponentModel.CancelEventHandler(this.WebBrowserNewWindow);
             // 
             // StartPageWebBrowser
-            // 
+            //
+            this.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.Controls.Add(this.webBrowser);
             this.Name = "StartPageWebBrowser";
-            this.Size = new System.Drawing.Size(873, 581);
+            this.Size = new System.Drawing.Size(696, 602);
             this.ResumeLayout(false);
-
         }
 
         #endregion
