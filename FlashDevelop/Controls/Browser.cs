@@ -15,7 +15,7 @@ namespace FlashDevelop.Controls
         private System.Windows.Forms.ToolStripButton refreshButton;
         private System.Windows.Forms.ToolStripSpringComboBox addressComboBox;
         public FlashDevelop.Controls.WebBrowserEx webBrowser;
-
+        private const int lastUrlsToSave = 30;
         public Browser()
         {
             this.Font = Globals.Settings.DefaultFont;
@@ -306,7 +306,7 @@ namespace FlashDevelop.Controls
                 if (Globals.Settings.SaveLastVisitedUrls && !Globals.Settings.LastVisitedUrls.Contains(url))
                 {
                     Globals.Settings.LastVisitedUrls.Insert(0, url);
-                    if (Globals.Settings.LastVisitedUrls.Count > 30) Globals.Settings.LastVisitedUrls.RemoveAt(Globals.Settings.LastVisitedUrls.Count - 1);
+                    if (Globals.Settings.LastVisitedUrls.Count > lastUrlsToSave) Globals.Settings.LastVisitedUrls.RemoveAt(Globals.Settings.LastVisitedUrls.Count - 1);
                 }
             }
         }

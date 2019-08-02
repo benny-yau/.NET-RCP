@@ -8,6 +8,7 @@ using System.Windows.Forms;
 namespace FlashDevelop
 {
 	/// <summary>
+    /// From SharpDevelop
 	/// Adds simple file-based drag+drop support to the MultiSelectTreeView.
 	/// </summary>
 	public class DragDropTreeView : MultiSelectTreeView

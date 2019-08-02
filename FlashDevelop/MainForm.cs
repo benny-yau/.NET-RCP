@@ -45,7 +45,8 @@ namespace FlashDevelop
             this.InitializeComponents();
             this.InitializeProcessRunner();
             this.InitializeMainForm();
-
+            this.DoubleBuffered = true;
+            this.Opacity = 0;
         }
 
         /// <summary>
@@ -669,6 +670,7 @@ namespace FlashDevelop
         /// </summary>
         private void OnMainFormShow(Object sender, System.EventArgs e)
         {
+            this.Opacity = 1;
         }
 
         /// <summary>

@@ -8,6 +8,7 @@ namespace FlashDevelop.Controls
         #region sorting
 
         /// <summary>
+        /// From SharpDevelop
         /// Inserts this node into the specified <paramref name="parentNode"/>
         /// at the position determined by the comparer
         /// of the TreeView which contains the <paramref name="parentNode"/>,

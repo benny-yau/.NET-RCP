@@ -6,13 +6,12 @@ using System.Windows.Forms;
 namespace FlashDevelop
 
 {
-	/// <summary>
-	/// An enhanced TreeView more appropriate for files/folders, designed to behave
-	/// exactly like the excellent treeview setup in Visual Studio.
-	///
-	/// This was challenging!  -nick
-	/// </summary>
-	public class MultiSelectTreeView : TreeView
+    /// <summary>
+    /// From SharpDevelop
+    /// An enhanced TreeView more appropriate for files/folders, designed to behave
+    /// exactly like the excellent treeview setup in Visual Studio.
+    /// </summary>
+    public class MultiSelectTreeView : TreeView
 	{
 		bool multiSelect = true;
 		bool ignoreNextMultiSelect;

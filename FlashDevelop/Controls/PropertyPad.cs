@@ -42,9 +42,11 @@ namespace FlashDevelop.Controls
         public static void CreatePluginPanel()
         {
             propertiesUI = new FilteredGrid();
+            propertiesUI.SelectedObject = propertiesUI; //for demonstration purpose
             propertiesUI.ToolbarVisible = false;
             propertiesUI.Text = TextHelper.GetString("Label.Properties");
             propertiesPanel = PluginBase.MainForm.CreateDockablePanel(propertiesUI, propertiesGuid, pluginImage, DockState.DockRight);
+
         }
 
         /// <summary>
